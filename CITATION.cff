@@ -1,0 +1,39 @@
+message: If you use My New Project, please cite it using this reference.
+title: 'My New Project: A Placeholder Project Title'
+version: ''
+date-released: ''
+doi: ''
+commit: ''
+license: AGPL-3.0-or-later
+url: https://AAriam.github.io/PyPackIT-Test1
+repository-artifact: https://pypi.org/project/My-New-Project
+repository-code: https://github.com/AAriam/PyPackIT-Test1
+type: software
+keywords:
+- First Keyword
+- Second Keyword
+- Third Keyword
+- Fourth Keyword
+- Fifth Keyword
+- Sixth Keyword
+abstract: Replace this text with a short abstract of My New Project, describing its
+  purpose and main features. By default, this text is displayed on the repository's
+  main README file, on the homepage of the project's website, on the project's PyPI
+  and TestPyPI pages, and on the package's main docstring. Like all other entries
+  in the repository's control center, this text can also contain dynamic references
+  to other entries, using the <code>${‎{ json-path.to.value }}</code> syntax. By default,
+  the first occurrence of the name of the project in this text is styled as strong
+  and linked to the project's website.
+contact:
+- family-names: Ariamajd
+  given-names: Armin
+  orcid: https://orcid.org/0000-0003-1563-6987
+  email: armiariam@gmail.com
+  city: Berlin
+authors:
+- family-names: Ariamajd
+  given-names: Armin
+  orcid: https://orcid.org/0000-0003-1563-6987
+  email: armiariam@gmail.com
+  city: Berlin
+cff-version: 1.2.0
