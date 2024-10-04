@@ -20,7 +20,7 @@ entries:
 - file: api/index
   title: API
   entries:
-  - file: api/my_new_project/my_new_project
+  - file: api/pypackit_test1/pypackit_test1
 - file: news/index
   title: News
   entries:

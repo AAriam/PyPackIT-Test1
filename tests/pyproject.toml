@@ -1,5 +1,5 @@
 [project]
-name = "My-New-Project-TestSuite"
+name = "PyPackIT-Test1-TestSuite"
 description = "A Placeholder Project Title"
 keywords = [
     "First Keyword",
@@ -81,6 +81,6 @@ distance-dirty = "{base_version}+{distance}.{committer_date:%Y.%m.%d}.{rev}.dirt
 method = "replace-version"
 regex = "^__version_details__: dict\\[str, str\\] = (?P<version>.*)"
 require-match = true
-source-file = "src/my_new_project_testsuite/__init__.py"
-build-file = "my_new_project_testsuite/__init__.py"
+source-file = "src/pypackit_test1_testsuite/__init__.py"
+build-file = "pypackit_test1_testsuite/__init__.py"
 replacement = "{{\n    \"version\": \"{version}\",\n    \"build_date\": \"{build_date:%Y.%m.%d}\",\n    \"committer_date\": \"{committer_date:%Y.%m.%d}\",\n    \"author_date\": \"{author_date:%Y.%m.%d}\",\n    \"branch\": \"{branch}\",\n    \"distance\": \"{distance}\",\n    \"commit_hash\": \"{revision}\",\n}}\n"

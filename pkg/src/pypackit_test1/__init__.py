@@ -1,6 +1,6 @@
-"""My New Project: A Placeholder Project Title.
+"""PyPackIT-Test1: A Placeholder Project Title.
 
-Replace this text with a short abstract of My New Project, describing its
+Replace this text with a short abstract of PyPackIT-Test1, describing its
 purpose and main features. By default, this text is displayed on the
 repository's main README file, on the homepage of the project's website, on the
 project's PyPI and TestPyPI pages, and on the package's main docstring. Like all
@@ -25,7 +25,7 @@ You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-from my_new_project import data
+from pypackit_test1 import data
 
 __all__ = ["data", "__version_details__", "__version__"]
 

@@ -1,12 +1,12 @@
-message: If you use My New Project, please cite it using this reference.
-title: 'My New Project: A Placeholder Project Title'
+message: If you use PyPackIT-Test1, please cite it using this reference.
+title: 'PyPackIT-Test1: A Placeholder Project Title'
 version: ''
 date-released: ''
 doi: ''
 commit: ''
 license: AGPL-3.0-or-later
 url: https://AAriam.github.io/PyPackIT-Test1
-repository-artifact: https://pypi.org/project/My-New-Project
+repository-artifact: https://pypi.org/project/PyPackIT-Test1
 repository-code: https://github.com/AAriam/PyPackIT-Test1
 type: software
 keywords:
@@ -16,7 +16,7 @@ keywords:
 - Fourth Keyword
 - Fifth Keyword
 - Sixth Keyword
-abstract: Replace this text with a short abstract of My New Project, describing its
+abstract: Replace this text with a short abstract of PyPackIT-Test1, describing its
   purpose and main features. By default, this text is displayed on the repository's
   main README file, on the homepage of the project's website, on the project's PyPI
   and TestPyPI pages, and on the package's main docstring. Like all other entries

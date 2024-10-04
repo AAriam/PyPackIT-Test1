@@ -1,5 +1,5 @@
 {
-   "abstract": "Replace this text with a short abstract of My New Project, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website.",
+   "abstract": "Replace this text with a short abstract of PyPackIT-Test1, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website.",
    "announcement": {
       "path": "docs/website/announcement.html",
       "retention_days": 30,
@@ -214,7 +214,7 @@
                "title": "Package Configurations."
             }
          ],
-         "title": "My New Project Changelog (Meta)"
+         "title": "PyPackIT-Test1 Changelog (Meta)"
       },
       "package_private": {
          "entry": {
@@ -276,14 +276,14 @@
                "title": "\ud83c\udfa8 Style Changes"
             }
          ],
-         "title": "My New Project Changelog (Private API)"
+         "title": "PyPackIT-Test1 Changelog (Private API)"
       },
       "pkg_api": {
          "entry": {
             "intro": "- Commit Type: {commit_type}\n- Commit Title: {commit_title}\n- Parent Commit: [{parent_commit_hash}]({parent_commit_url})\n",
             "title": "[{ver_dist}] \u2013 {date}"
          },
-         "intro": "This document records all changes to the public API of My New Project in each new final release.\nThe changes documented here are only those that affect the end-users of the software,\nsuch as added, changed, or removed features, bug fixes, and performance improvements.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n",
+         "intro": "This document records all changes to the public API of PyPackIT-Test1 in each new final release.\nThe changes documented here are only those that affect the end-users of the software,\nsuch as added, changed, or removed features, bug fixes, and performance improvements.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n",
          "name": "Public API",
          "path": "CHANGELOG.md",
          "sections": [
@@ -338,14 +338,14 @@
                "title": "\ud83d\udcd4\ufe0f\u2002Release-Notes Fixes"
             }
          ],
-         "title": "My New Project Changelog - Public API"
+         "title": "PyPackIT-Test1 Changelog - Public API"
       },
       "pkg_api_pre": {
          "entry": {
             "intro": "- Commit Type: {commit_type}\n- Commit Title: {commit_title}\n- Parent Commit: [{parent_commit_hash}]({parent_commit_url})\n",
             "title": "[{ver_dist}] \u2013 {date}"
          },
-         "intro": "This document records all changes to the public API of My New Project during a pre-release period.\nThe changes documented here are only those that affect the end-users of the software,\nsuch as added, changed, or removed features, bug fixes, and performance improvements.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n",
+         "intro": "This document records all changes to the public API of PyPackIT-Test1 during a pre-release period.\nThe changes documented here are only those that affect the end-users of the software,\nsuch as added, changed, or removed features, bug fixes, and performance improvements.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n",
          "name": "Pre-release Public API",
          "path": "CHANGELOG_PRERELEASE.md",
          "sections": [
@@ -400,7 +400,7 @@
                "title": "\ud83d\udcd4\ufe0f\u2002Release-Notes Fixes"
             }
          ],
-         "title": "My New Project Changelog - Pre-release Public API"
+         "title": "PyPackIT-Test1 Changelog - Pre-release Public API"
       },
       "tests": {
          "entry": {
@@ -462,7 +462,7 @@
                "title": "\ud83c\udfa8 Style Changes"
             }
          ],
-         "title": "My New Project Changelog (Test Suite)"
+         "title": "PyPackIT-Test1 Changelog (Test Suite)"
       },
       "website": {
          "entry": {
@@ -489,7 +489,7 @@
                "title": "Backend"
             }
          ],
-         "title": "My New Project Changelog (Website)"
+         "title": "PyPackIT-Test1 Changelog (Website)"
       },
       "workflows": {
          "entry": {
@@ -506,11 +506,11 @@
                "title": "Workflows"
             }
          ],
-         "title": "My New Project Changelog (Workflows)"
+         "title": "PyPackIT-Test1 Changelog (Workflows)"
       }
    },
    "citation": {
-      "abstract": "Replace this text with a short abstract of My New Project, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website.",
+      "abstract": "Replace this text with a short abstract of PyPackIT-Test1, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website.",
       "authors": [
          {
             "affiliation": "Freie Universit\u00e4t Berlin (FUB)",
@@ -601,12 +601,12 @@
       ],
       "language": "eng",
       "license": "AGPL-3.0-or-later",
-      "message": "If you use My New Project, please cite it using this reference.",
+      "message": "If you use PyPackIT-Test1, please cite it using this reference.",
       "repository": {
-         "build": "https://pypi.org/project/My-New-Project",
+         "build": "https://pypi.org/project/PyPackIT-Test1",
          "source": "https://github.com/AAriam/PyPackIT-Test1"
       },
-      "title": "My New Project: A Placeholder Project Title",
+      "title": "PyPackIT-Test1: A Placeholder Project Title",
       "type": "software",
       "url": "https://AAriam.github.io/PyPackIT-Test1"
    },
@@ -1120,10 +1120,10 @@
                      "align": "justify"
                   },
                   "class": "paragraph",
-                  "content": "Welcome to the <em>My New Project</em> community!\nWe are excited to have you here,\nand grateful that you are considering contributing.\nMy New Project is a free and open-source project that evolves with the needs of its users,\nand can only grow through the help of great members like you.\n"
+                  "content": "Welcome to the <em>PyPackIT-Test1</em> community!\nWe are excited to have you here,\nand grateful that you are considering contributing.\nPyPackIT-Test1 is a free and open-source project that evolves with the needs of its users,\nand can only grow through the help of great members like you.\n"
                }
             ],
-            "heading": "My New Project Contributing Guidelines",
+            "heading": "PyPackIT-Test1 Contributing Guidelines",
             "section": [
                {
                   "body": [
@@ -1152,15 +1152,15 @@
    },
    "highlights": [
       {
-         "description": "Description of the first key feature of My New Project. By default, these highlights are displayed on the repository's main README file, on the homepage of the project's website, and on the project's PyPI and TestPyPI pages.",
+         "description": "Description of the first key feature of PyPackIT-Test1. By default, these highlights are displayed on the repository's main README file, on the homepage of the project's website, and on the project's PyPI and TestPyPI pages.",
          "title": "First Key Feature"
       },
       {
-         "description": "Description of the second key feature of My New Project. For aesthetic reasons, it is recommended to keep the descriptions of all items in this list approximately the same length.",
+         "description": "Description of the second key feature of PyPackIT-Test1. For aesthetic reasons, it is recommended to keep the descriptions of all items in this list approximately the same length.",
          "title": "Second Key Feature"
       },
       {
-         "description": "Description of the third key feature of My New Project. You can add as many keynotes as you want. However, in order to keep the READMEs clean and tidy, it is recommended to keep the number of keynotes between 3 and 7.",
+         "description": "Description of the third key feature of PyPackIT-Test1. You can add as many keynotes as you want. However, in order to keep the READMEs clean and tidy, it is recommended to keep the number of keynotes between 3 and 7.",
          "title": "Third Key Feature"
       }
    ],
@@ -1179,14 +1179,14 @@
          }
       ],
       "form_element": {
-         "welcome": "<p align=\"justify\">\n  Thank you for providing feedback on My New Project; we greatly appreciate your contribution!\n  Before submitting a ticket, please take a moment to review and accept our terms and conditions.\n</p>"
+         "welcome": "<p align=\"justify\">\n  Thank you for providing feedback on PyPackIT-Test1; we greatly appreciate your contribution!\n  Before submitting a ticket, please take a moment to review and accept our terms and conditions.\n</p>"
       },
       "forms": [
          {
             "body": [
                {
                   "attributes": {
-                     "value": "<p align=\"justify\">\n  Thank you for providing feedback on My New Project; we greatly appreciate your contribution!\n  Before submitting a ticket, please take a moment to review and accept our terms and conditions.\n</p> <h2>Terms and Conditions</h2> <h3>\u26d4\u2002Choosing the Right Form</h3> <p align=\"justify\">\n  Please note that this form is specifically for reporting a\n  <b>non-security-related bug in My New Project's Python API</b>,\n  i.e. an unexpected behavior that occurs while using the application as an import package.\n  To report a security vulnerability please first read our\n  <a href=\"https://github.com/AAriam/PyPackIT-Test1/blob/main/SECURITY.md\">security policy</a>, and fill a\n  <a href=\"https://github.com/AAriam/PyPackIT-Test1/security/advisories/new\">private security advisory form</a> instead.\n  For other types of issues, such as problems in the\n  <a href=\"{{ repo.url.issues.new.app_bug_setup }}\">installation process</a>,\n  <a href=\"{{ repo.url.issues.new.docs_bug_site }}\">website</a>, or\n  <a href=\"{{ repo.url.issues.new.docs_bug_content }}\">documentation</a>,\n  or for requesting new features and enhancements, please select the appropriate form\n  from the <a href=\"{{ repo.url.issues.template_chooser }}\">issue template chooser</a>.\n</p> <blockquote>\n  \ud83d\udca1\u2002<a href=\"https://AAriam.github.io/PyPackIT-Test1/about/contact\"><b>Contact us</b></a>\n  <br>\n  <p align=\"justify\">\n    Can't find the right form or unsure about which one to choose?\n    Ask a question and get help in the\n    <a href=\"https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=question_issues\">discussion forum</a>.\n  </p>\n</blockquote> <h3>\u26a0\ufe0f\u2002Verifying the Bug</h3> Before submitting a report, please make sure that you are following our <a href=\"https://AAriam.github.io/PyPackIT-Test1/contribute\">Bug Report Guidelines</a> to verify that: <ol>\n  <li>\n    The issue you are experiencing is in fact a bug, and not a documented expected behavior.\n  </li>\n  <li>\n    The bug is reproducible in the latest version of the release, and has not yet been reported.\n  </li>\n</ol> <blockquote>\n    \ud83d\udca1 <a href=\"https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=question_issues\"><b>Open a discussion instead!</b></a>\n    <br>\n    This verification process is non-trivial, and can be time-consuming.\n    If you are not a collaborator and don't have the time to go through the process,\n    you can always open a discussion instead; we will investigate the problem as soon as possible,\n    and convert the discussion into an issue if the bug is verified.\n</blockquote> <h3>\u2705\u2002Agreements</h3>"
+                     "value": "<p align=\"justify\">\n  Thank you for providing feedback on PyPackIT-Test1; we greatly appreciate your contribution!\n  Before submitting a ticket, please take a moment to review and accept our terms and conditions.\n</p> <h2>Terms and Conditions</h2> <h3>\u26d4\u2002Choosing the Right Form</h3> <p align=\"justify\">\n  Please note that this form is specifically for reporting a\n  <b>non-security-related bug in PyPackIT-Test1's Python API</b>,\n  i.e. an unexpected behavior that occurs while using the application as an import package.\n  To report a security vulnerability please first read our\n  <a href=\"https://github.com/AAriam/PyPackIT-Test1/blob/main/SECURITY.md\">security policy</a>, and fill a\n  <a href=\"https://github.com/AAriam/PyPackIT-Test1/security/advisories/new\">private security advisory form</a> instead.\n  For other types of issues, such as problems in the\n  <a href=\"{{ repo.url.issues.new.app_bug_setup }}\">installation process</a>,\n  <a href=\"{{ repo.url.issues.new.docs_bug_site }}\">website</a>, or\n  <a href=\"{{ repo.url.issues.new.docs_bug_content }}\">documentation</a>,\n  or for requesting new features and enhancements, please select the appropriate form\n  from the <a href=\"{{ repo.url.issues.template_chooser }}\">issue template chooser</a>.\n</p> <blockquote>\n  \ud83d\udca1\u2002<a href=\"https://AAriam.github.io/PyPackIT-Test1/about/contact\"><b>Contact us</b></a>\n  <br>\n  <p align=\"justify\">\n    Can't find the right form or unsure about which one to choose?\n    Ask a question and get help in the\n    <a href=\"https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=question_issues\">discussion forum</a>.\n  </p>\n</blockquote> <h3>\u26a0\ufe0f\u2002Verifying the Bug</h3> Before submitting a report, please make sure that you are following our <a href=\"https://AAriam.github.io/PyPackIT-Test1/contribute\">Bug Report Guidelines</a> to verify that: <ol>\n  <li>\n    The issue you are experiencing is in fact a bug, and not a documented expected behavior.\n  </li>\n  <li>\n    The bug is reproducible in the latest version of the release, and has not yet been reported.\n  </li>\n</ol> <blockquote>\n    \ud83d\udca1 <a href=\"https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=question_issues\"><b>Open a discussion instead!</b></a>\n    <br>\n    This verification process is non-trivial, and can be time-consuming.\n    If you are not a collaborator and don't have the time to go through the process,\n    you can always open a discussion instead; we will investigate the problem as soon as possible,\n    and convert the discussion into an issue if the bug is verified.\n</blockquote> <h3>\u2705\u2002Agreements</h3>"
                   },
                   "type": "markdown"
                },
@@ -1268,7 +1268,7 @@
                },
                {
                   "attributes": {
-                     "description": "Please select the package manager used to download and install My New Project.\n",
+                     "description": "Please select the package manager used to download and install PyPackIT-Test1.\n",
                      "label": "Package Manager",
                      "multiple": false,
                      "options": [
@@ -1283,7 +1283,7 @@
                },
                {
                   "attributes": {
-                     "description": "Please select all My New Project versions in which you have encountered the bug.\n",
+                     "description": "Please select all PyPackIT-Test1 versions in which you have encountered the bug.\n",
                      "label": "Package Version",
                      "multiple": true,
                      "options": [
@@ -1317,7 +1317,7 @@
                   "attributes": {
                      "description": "Please provide the fully qualified name (e.g., `package_name.module_name.ClassName.method_name`) of the API endpoint that is causing the problem.",
                      "label": "Fully Qualified Name",
-                     "value": "my_new_project."
+                     "value": "pypackit_test1."
                   },
                   "id": "api_entry",
                   "type": "input",
@@ -1341,7 +1341,7 @@
                      "description": "Please provide a test case (preferred), or a minimal complete verifiable code example to reproduce the bug.",
                      "label": "Test Case or Minimal Reproducible Example (MRE)",
                      "render": "python",
-                     "value": "import my_new_project\n\ndef test():\n    ...\n    assert ...\n"
+                     "value": "import pypackit_test1\n\ndef test():\n    ...\n    assert ...\n"
                   },
                   "id": "code",
                   "type": "textarea",
@@ -1362,7 +1362,7 @@
                   }
                }
             ],
-            "description": "Report a problem (e.g., errors and unexpected results) encountered while using My New Project's Python API.",
+            "description": "Report a problem (e.g., errors and unexpected results) encountered while using PyPackIT-Test1's Python API.",
             "id": "app_bug_api",
             "name": "\u2002\ud83d\udda5\u2002App\u2002\ud83d\udc1e\u2002Bug Report\u2002\ud83d\udcf1\u2002API",
             "post_process": {
@@ -2369,7 +2369,7 @@
          }
       }
    },
-   "name": "My New Project",
+   "name": "PyPackIT-Test1",
    "pkg": {
       "build": {
          "backend": "setuptools.build_meta",
@@ -2401,12 +2401,12 @@
                   "distance-dirty": "{base_version}+{distance}.{committer_date:%Y.%m.%d}.{rev}.dirty"
                },
                "onbuild": {
-                  "build-file": "my_new_project/__init__.py",
+                  "build-file": "pypackit_test1/__init__.py",
                   "method": "replace-version",
                   "regex": "^__version_details__: dict\\[str, str\\] = (?P<version>.*)",
                   "replacement": "{{\n    \"version\": \"{version}\",\n    \"build_date\": \"{build_date:%Y.%m.%d}\",\n    \"committer_date\": \"{committer_date:%Y.%m.%d}\",\n    \"author_date\": \"{author_date:%Y.%m.%d}\",\n    \"branch\": \"{branch}\",\n    \"distance\": \"{distance}\",\n    \"commit_hash\": \"{revision}\",\n}}\n",
                   "require-match": true,
-                  "source-file": "src/my_new_project/__init__.py"
+                  "source-file": "src/pypackit_test1/__init__.py"
                },
                "tag2version": {
                   "rmprefix": "ver/"
@@ -2448,7 +2448,7 @@
          },
          "env": {
             "conda": {
-               "name": "my_new_project",
+               "name": "pypackit_test1",
                "path": "pkg/conda_env.yaml"
             },
             "pip": {
@@ -2460,22 +2460,22 @@
          "cli": {
             "main": {
                "description": "Main CLI entry of the package.",
-               "name": "my_new_project",
-               "ref": "my_new_project:__main__"
+               "name": "pypackit_test1",
+               "ref": "pypackit_test1:__main__"
             }
          }
       },
       "file": {
          "__init__.py": {
-            "docstring": "My New Project: A Placeholder Project Title.\n\nReplace this text with a short abstract of My New Project, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website.\n\nCopyright (C) 2024 Armin Ariamajd\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as published\nby the Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n"
+            "docstring": "PyPackIT-Test1: A Placeholder Project Title.\n\nReplace this text with a short abstract of PyPackIT-Test1, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website.\n\nCopyright (C) 2024 Armin Ariamajd\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as published\nby the Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n"
          }
       },
-      "import_name": "my_new_project",
+      "import_name": "pypackit_test1",
       "manifest": [
-         "graft src/my_new_project/data",
+         "graft src/pypackit_test1/data",
          "global-exclude *.py[cod] __pycache__ *.so"
       ],
-      "name": "My-New-Project",
+      "name": "PyPackIT-Test1",
       "os": {
          "independent": true,
          "linux": {
@@ -2492,13 +2492,13 @@
          }
       },
       "path": {
-         "import": "pkg/src/my_new_project",
+         "import": "pkg/src/pypackit_test1",
          "root": "pkg",
          "source": "src"
       },
       "pypi": {
          "url": {
-            "home": "https://pypi.org/project/My-New-Project"
+            "home": "https://pypi.org/project/PyPackIT-Test1"
          }
       },
       "python": {
@@ -2607,7 +2607,7 @@
                      "align": "justify"
                   },
                   "class": "paragraph",
-                  "content": "Replace this text with a short abstract of My New Project, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website."
+                  "content": "Replace this text with a short abstract of PyPackIT-Test1, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website."
                },
                [
                   {
@@ -2681,12 +2681,12 @@
                },
                "content": [
                   {
-                     "alt": "My New Project: A Placeholder Project Title",
+                     "alt": "PyPackIT-Test1: A Placeholder Project Title",
                      "class": "block_image",
                      "link": "https://AAriam.github.io/PyPackIT-Test1",
                      "src": "https://raw.githubusercontent.com/AAriam/PyPackIT-Test1/main/docs/media/logo/full_light.svg",
                      "src_dark": "https://raw.githubusercontent.com/AAriam/PyPackIT-Test1/main/docs/media/logo/full_dark.svg",
-                     "title": "Welcome to My New Project! Click to visit our website and learn more.",
+                     "title": "Welcome to PyPackIT-Test1! Click to visit our website and learn more.",
                      "width": "80%"
                   }
                ]
@@ -2714,15 +2714,15 @@
                         "class": "highlights",
                         "items": [
                            {
-                              "description": "Description of the first key feature of My New Project. By default, these highlights are displayed on the repository's main README file, on the homepage of the project's website, and on the project's PyPI and TestPyPI pages.",
+                              "description": "Description of the first key feature of PyPackIT-Test1. By default, these highlights are displayed on the repository's main README file, on the homepage of the project's website, and on the project's PyPI and TestPyPI pages.",
                               "title": "First Key Feature"
                            },
                            {
-                              "description": "Description of the second key feature of My New Project. For aesthetic reasons, it is recommended to keep the descriptions of all items in this list approximately the same length.",
+                              "description": "Description of the second key feature of PyPackIT-Test1. For aesthetic reasons, it is recommended to keep the descriptions of all items in this list approximately the same length.",
                               "title": "Second Key Feature"
                            },
                            {
-                              "description": "Description of the third key feature of My New Project. You can add as many keynotes as you want. However, in order to keep the READMEs clean and tidy, it is recommended to keep the number of keynotes between 3 and 7.",
+                              "description": "Description of the third key feature of PyPackIT-Test1. You can add as many keynotes as you want. However, in order to keep the READMEs clean and tidy, it is recommended to keep the number of keynotes between 3 and 7.",
                               "title": "Third Key Feature"
                            }
                         ]
@@ -2751,7 +2751,7 @@
          "main"
       ],
       "cli_names": [
-         "my_new_project"
+         "pypackit_test1"
       ],
       "file": {
          "config": {
@@ -2780,14 +2780,14 @@
             "manifest": "pkg/MANIFEST.in",
             "pyproject": "pkg/pyproject.toml",
             "readme_pypi": "pkg/README.md",
-            "typed": "pkg/src/my_new_project/py.typed"
+            "typed": "pkg/src/pypackit_test1/py.typed"
          },
          "pkg_source": {
-            "my_new_project/__init__.py": "pkg/src/my_new_project/__init__.py",
-            "my_new_project/__main__.py": "pkg/src/my_new_project/__main__.py",
-            "my_new_project/data/__init__.py": "pkg/src/my_new_project/data/__init__.py",
-            "my_new_project/exception/__init__.py": "pkg/src/my_new_project/exception/__init__.py",
-            "my_new_project/exception/data.py": "pkg/src/my_new_project/exception/data.py"
+            "my_new_project/__init__.py": "pkg/src/pypackit_test1/__init__.py",
+            "my_new_project/__main__.py": "pkg/src/pypackit_test1/__main__.py",
+            "my_new_project/data/__init__.py": "pkg/src/pypackit_test1/data/__init__.py",
+            "my_new_project/exception/__init__.py": "pkg/src/pypackit_test1/exception/__init__.py",
+            "my_new_project/exception/data.py": "pkg/src/pypackit_test1/exception/data.py"
          },
          "pull_template": {
             "default": ".github/pull_request_template.md"
@@ -2800,19 +2800,19 @@
             "env_pip": "tests/requirements.txt",
             "manifest": "tests/MANIFEST.in",
             "pyproject": "tests/pyproject.toml",
-            "typed": "tests/src/my_new_project_testsuite/py.typed"
+            "typed": "tests/src/pypackit_test1_testsuite/py.typed"
          },
          "test_source": {
-            "my_new_project_testsuite/__init__.py": "tests/src/my_new_project_testsuite/__init__.py",
-            "my_new_project_testsuite/__main__.py": "tests/src/my_new_project_testsuite/__main__.py",
-            "my_new_project_testsuite/data_tests.py": "tests/src/my_new_project_testsuite/data_tests.py"
+            "my_new_project_testsuite/__init__.py": "tests/src/pypackit_test1_testsuite/__init__.py",
+            "my_new_project_testsuite/__main__.py": "tests/src/pypackit_test1_testsuite/__main__.py",
+            "my_new_project_testsuite/data_tests.py": "tests/src/pypackit_test1_testsuite/data_tests.py"
          },
          "tool_config": {
             "codecov": ".github/.codecov.yml",
-            "coverage": "tests/src/my_new_project_testsuite/data/config/coverage.toml",
+            "coverage": "tests/src/pypackit_test1_testsuite/data/config/coverage.toml",
             "mypy": ".github/.mypy.toml",
             "pre-commit": ".github/.pre-commit-config.yaml",
-            "pytest": "tests/src/my_new_project_testsuite/data/config/pytest.toml",
+            "pytest": "tests/src/pypackit_test1_testsuite/data/config/pytest.toml",
             "readthedocs": ".readthedocs.yaml",
             "ruff": ".github/.ruff.toml"
          },
@@ -2854,7 +2854,7 @@
             "api_names": [],
             "branch": "main",
             "cli_names": [
-               "my_new_project"
+               "pypackit_test1"
             ],
             "gui_names": [],
             "os_names": [
@@ -2934,7 +2934,7 @@
                      "align": "justify"
                   },
                   "class": "paragraph",
-                  "content": "Replace this text with a short abstract of My New Project, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website."
+                  "content": "Replace this text with a short abstract of PyPackIT-Test1, describing its purpose and main features. By default, this text is displayed on the repository's main README file, on the homepage of the project's website, on the project's PyPI and TestPyPI pages, and on the package's main docstring. Like all other entries in the repository's control center, this text can also contain dynamic references to other entries, using the <code>${\u200e{ json-path.to.value }}</code> syntax. By default, the first occurrence of the name of the project in this text is styled as strong and linked to the project's website."
                },
                [
                   {
@@ -3008,12 +3008,12 @@
                },
                "content": [
                   {
-                     "alt": "My New Project: A Placeholder Project Title",
+                     "alt": "PyPackIT-Test1: A Placeholder Project Title",
                      "class": "block_image",
                      "link": "https://AAriam.github.io/PyPackIT-Test1",
                      "src": "https://raw.githubusercontent.com/AAriam/PyPackIT-Test1/main/docs/media/logo/full_light.svg",
                      "src_dark": "https://raw.githubusercontent.com/AAriam/PyPackIT-Test1/main/docs/media/logo/full_dark.svg",
-                     "title": "Welcome to My New Project! Click to visit our website and learn more.",
+                     "title": "Welcome to PyPackIT-Test1! Click to visit our website and learn more.",
                      "width": "80%"
                   }
                ]
@@ -3041,15 +3041,15 @@
                         "class": "highlights",
                         "items": [
                            {
-                              "description": "Description of the first key feature of My New Project. By default, these highlights are displayed on the repository's main README file, on the homepage of the project's website, and on the project's PyPI and TestPyPI pages.",
+                              "description": "Description of the first key feature of PyPackIT-Test1. By default, these highlights are displayed on the repository's main README file, on the homepage of the project's website, and on the project's PyPI and TestPyPI pages.",
                               "title": "First Key Feature"
                            },
                            {
-                              "description": "Description of the second key feature of My New Project. For aesthetic reasons, it is recommended to keep the descriptions of all items in this list approximately the same length.",
+                              "description": "Description of the second key feature of PyPackIT-Test1. For aesthetic reasons, it is recommended to keep the descriptions of all items in this list approximately the same length.",
                               "title": "Second Key Feature"
                            },
                            {
-                              "description": "Description of the third key feature of My New Project. You can add as many keynotes as you want. However, in order to keep the READMEs clean and tidy, it is recommended to keep the number of keynotes between 3 and 7.",
+                              "description": "Description of the third key feature of PyPackIT-Test1. You can add as many keynotes as you want. However, in order to keep the READMEs clean and tidy, it is recommended to keep the number of keynotes between 3 and 7.",
                               "title": "Third Key Feature"
                            }
                         ]
@@ -3740,7 +3740,7 @@
          "fifth-keyword",
          "sixth-keyword"
       ],
-      "name": "my-new-project",
+      "name": "pypackit-test1",
       "repo_name": "pypackit-test1"
    },
    "tag": {
@@ -3819,12 +3819,12 @@
                   "distance-dirty": "{base_version}+{distance}.{committer_date:%Y.%m.%d}.{rev}.dirty"
                },
                "onbuild": {
-                  "build-file": "my_new_project_testsuite/__init__.py",
+                  "build-file": "pypackit_test1_testsuite/__init__.py",
                   "method": "replace-version",
                   "regex": "^__version_details__: dict\\[str, str\\] = (?P<version>.*)",
                   "replacement": "{{\n    \"version\": \"{version}\",\n    \"build_date\": \"{build_date:%Y.%m.%d}\",\n    \"committer_date\": \"{committer_date:%Y.%m.%d}\",\n    \"author_date\": \"{author_date:%Y.%m.%d}\",\n    \"branch\": \"{branch}\",\n    \"distance\": \"{distance}\",\n    \"commit_hash\": \"{revision}\",\n}}\n",
                   "require-match": true,
-                  "source-file": "src/my_new_project_testsuite/__init__.py"
+                  "source-file": "src/pypackit_test1_testsuite/__init__.py"
                },
                "tag2version": {
                   "rmprefix": "ver/"
@@ -3935,7 +3935,7 @@
          },
          "env": {
             "conda": {
-               "name": "my_new_project_testsuite",
+               "name": "pypackit_test1_testsuite",
                "path": "tests/conda_env.yaml"
             },
             "pip": {
@@ -3945,16 +3945,16 @@
       },
       "file": {
          "__init__.py": {
-            "docstring": "My New Project Test-Suite.\n\nCopyright (C) 2024 Armin Ariamajd\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as published\nby the Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n"
+            "docstring": "PyPackIT-Test1 Test-Suite.\n\nCopyright (C) 2024 Armin Ariamajd\n\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU Affero General Public License as published\nby the Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License\nalong with this program.  If not, see <https://www.gnu.org/licenses/>.\n\n"
          }
       },
-      "import_name": "my_new_project_testsuite",
+      "import_name": "pypackit_test1_testsuite",
       "manifest": [
-         "graft src/my_new_project_testsuite/data",
-         "include src/my_new_project_testsuite/py.typed",
+         "graft src/pypackit_test1_testsuite/data",
+         "include src/pypackit_test1_testsuite/py.typed",
          "global-exclude *.py[cod] __pycache__ *.so"
       ],
-      "name": "My-New-Project-TestSuite",
+      "name": "PyPackIT-Test1-TestSuite",
       "os": {
          "linux": {
             "name": "Linux",
@@ -3970,13 +3970,13 @@
          }
       },
       "path": {
-         "import": "tests/src/my_new_project_testsuite",
+         "import": "tests/src/pypackit_test1_testsuite",
          "root": "tests",
          "source": "src"
       },
       "pypi": {
          "url": {
-            "home": "https://pypi.org/project/My-New-Project-TestSuite"
+            "home": "https://pypi.org/project/PyPackIT-Test1-TestSuite"
          }
       },
       "python": {
@@ -4061,7 +4061,7 @@
             "items": [
                {
                   "align": "left",
-                  "alt": "My New Project",
+                  "alt": "PyPackIT-Test1",
                   "args": {
                      "prefix": "\u00a9",
                      "query": "$.copyright.notice",
@@ -4069,14 +4069,14 @@
                   },
                   "color": "#0F3460",
                   "color_dark": "#3A98B9",
-                  "label": "My New Project",
+                  "label": "PyPackIT-Test1",
                   "link": "https://AAriam.github.io/PyPackIT-Test1",
                   "logo": "docs/media/logo/favicon.svg",
                   "logo_dark": "docs/media/logo/favicon.svg",
                   "logo_type": "file",
                   "logo_type_dark": "file",
                   "service": "dynamic",
-                  "title": "My New Project: 2024 Armin Ariamajd"
+                  "title": "PyPackIT-Test1: 2024 Armin Ariamajd"
                },
                {
                   "align": "left",
@@ -4090,7 +4090,7 @@
                   "label": "License",
                   "link": "https://github.com/AAriam/PyPackIT-Test1/blob/main/LICENSE",
                   "service": "dynamic",
-                  "title": "My New Project is licensed under the GNU Affero General Public License v3.0 or later"
+                  "title": "PyPackIT-Test1 is licensed under the GNU Affero General Public License v3.0 or later"
                },
                {
                   "align": "right",
@@ -4156,7 +4156,7 @@
                      "coverage": {
                         "html": {
                            "directory": "$|| path_report ||/coverage/html",
-                           "title": "My-New-Project Test Coverage"
+                           "title": "PyPackIT-Test1 Test Coverage"
                         },
                         "json": {
                            "output": "$|| path_report ||/coverage/coverage.json",
@@ -4180,7 +4180,7 @@
                            "data_file": "$|| path_cache ||/coverage/coverage",
                            "debug_file": "$|| path_report ||/coverage/debug.log",
                            "source_pkgs": [
-                              "my_new_project"
+                              "pypackit_test1"
                            ]
                         },
                         "xml": {
@@ -4189,7 +4189,7 @@
                      }
                   }
                },
-               "path": "tests/src/my_new_project_testsuite/data/config/coverage.toml",
+               "path": "tests/src/pypackit_test1_testsuite/data/config/coverage.toml",
                "type": "toml"
             }
          }
@@ -4208,7 +4208,7 @@
                         "linecoverage_report": ".local/report/mypy",
                         "lineprecision_report": ".local/report/mypy",
                         "packages": [
-                           "my_new_project"
+                           "pypackit_test1"
                         ],
                         "pretty": true,
                         "raise_exceptions": true,
@@ -4254,7 +4254,7 @@
             },
             "file": {
                "conda": {
-                  "name": "my-new-project-dev",
+                  "name": "pypackit-test1-dev",
                   "path": ".github/dev_environment.yaml"
                },
                "pip": {
@@ -4490,7 +4490,7 @@
             },
             "file": {
                "conda": {
-                  "name": "my-new-project-dev",
+                  "name": "pypackit-test1-dev",
                   "path": ".github/dev_environment.yaml"
                }
             }
@@ -4519,7 +4519,7 @@
             },
             "file": {
                "conda": {
-                  "name": "my-new-project-dev",
+                  "name": "pypackit-test1-dev",
                   "path": ".github/dev_environment.yaml"
                },
                "pip": {
@@ -4539,7 +4539,7 @@
                            "cache_dir": "$|| path_cache ||/pytest",
                            "console_output_style": "count",
                            "junit_logging": "all",
-                           "junit_suite_name": "my_new_project_testsuite",
+                           "junit_suite_name": "pypackit_test1_testsuite",
                            "log_auto_indent": true,
                            "log_cli": true,
                            "log_cli_date_format": "%Y-%m-%d %H:%M:%S",
@@ -4577,7 +4577,7 @@
                      }
                   }
                },
-               "path": "tests/src/my_new_project_testsuite/data/config/pytest.toml",
+               "path": "tests/src/pypackit_test1_testsuite/data/config/pytest.toml",
                "type": "toml"
             }
          }
@@ -4680,16 +4680,16 @@
                         "docs/website/source/conf.py": [
                            "TRY003"
                         ],
-                        "pkg/src/my_new_project/__main__.py": [
+                        "pkg/src/pypackit_test1/__main__.py": [
                            "T20"
                         ],
                         "tests/src/**": [
                            "S101"
                         ],
-                        "tests/src/my_new_project_testsuite/__init__.py": [
+                        "tests/src/pypackit_test1_testsuite/__init__.py": [
                            "T20"
                         ],
-                        "tests/src/my_new_project_testsuite/__main__.py": [
+                        "tests/src/pypackit_test1_testsuite/__main__.py": [
                            "T20"
                         ]
                      },
@@ -4890,7 +4890,7 @@
                "blog_post_pattern": [
                   "news/post/*.md"
                ],
-               "blog_title": "My New Project News",
+               "blog_title": "PyPackIT-Test1 News",
                "fontawesome_included": true,
                "post_always_section": true,
                "post_auto_image": 1,
@@ -4924,7 +4924,7 @@
                "autodoc2_index_template": null,
                "autodoc2_output_dir": "api",
                "autodoc2_packages": [
-                  "../../../pkg/src/my_new_project"
+                  "../../../pkg/src/pypackit_test1"
                ],
                "autodoc2_render_plugin": "myst",
                "autodoc2_sort_names": true
@@ -5331,7 +5331,7 @@
             "html_last_updated_fmt": "%b %d, %Y",
             "html_math_renderer": "mathjax",
             "html_secnumber_suffix": ".\u2002",
-            "html_short_title": "My New Project",
+            "html_short_title": "PyPackIT-Test1",
             "html_show_sphinx": false,
             "html_sidebars": {
                "news/**": [
@@ -5349,7 +5349,7 @@
                "../../../docs/media/logo/simple_light.svg",
                "../../../docs/media/logo/simple_dark.svg"
             ],
-            "html_title": "My New Project",
+            "html_title": "PyPackIT-Test1",
             "html_use_opensearch": "https://AAriam.github.io/PyPackIT-Test1",
             "language": "en",
             "latex_elements": {
@@ -5375,7 +5375,7 @@
             "nitpicky": true,
             "numfig": true,
             "numfig_secnum_depth": 3,
-            "project": "My New Project",
+            "project": "PyPackIT-Test1",
             "project_copyright": "2024 Armin Ariamajd",
             "pygment_style": "default",
             "python_display_short_literal_types": true,
@@ -5504,7 +5504,7 @@
                   {
                      "icon": "fa-brands fa-python",
                      "name": "PyPI Distribution",
-                     "url": "https://pypi.org/project/My-New-Project"
+                     "url": "https://pypi.org/project/PyPackIT-Test1"
                   },
                   {
                      "icon": "fa-brands fa-github",
@@ -5534,7 +5534,7 @@
                ],
                "icon_links_label": "External links",
                "logo": {
-                  "alt_text": "My New Project",
+                  "alt_text": "PyPackIT-Test1",
                   "image_dark": "_static/simple_dark.svg",
                   "image_light": "_static/simple_light.svg"
                },
@@ -5556,7 +5556,7 @@
                "primary_sidebar_end": [],
                "pygments_dark_style": "monokai",
                "pygments_light_style": "default",
-               "search_bar_text": "Search My New Project",
+               "search_bar_text": "Search PyPackIT-Test1",
                "secondary_sidebar_items": [
                   "page-toc",
                   "last-updated",
@@ -5627,7 +5627,7 @@
             {
                "entries": [
                   {
-                     "file": "api/my_new_project/my_new_project"
+                     "file": "api/pypackit_test1/pypackit_test1"
                   }
                ],
                "file": "api/index",

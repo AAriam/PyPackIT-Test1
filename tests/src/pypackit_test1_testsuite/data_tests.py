@@ -2,8 +2,8 @@
 
 import pytest
 
-import my_new_project as pkg
-from my_new_project.exception.data import DataFileNotFoundError
+import pypackit_test1 as pkg
+from pypackit_test1.exception.data import DataFileNotFoundError
 
 
 def test_file():

@@ -1,6 +1,6 @@
 name:  🖥 App 🐞 Bug Report 📱 API
 description: Report a problem (e.g., errors and unexpected results) encountered while
-  using My New Project's Python API.
+  using PyPackIT-Test1's Python API.
 labels:
 - 'Type: patch-release'
 - 'SubType: api'
@@ -10,12 +10,12 @@ assignees:
 body:
 - type: markdown
   attributes:
-    value: "<p align=\"justify\">\n  Thank you for providing feedback on My New Project;
+    value: "<p align=\"justify\">\n  Thank you for providing feedback on PyPackIT-Test1;
       we greatly appreciate your contribution!\n  Before submitting a ticket, please
       take a moment to review and accept our terms and conditions.\n</p> <h2>Terms
       and Conditions</h2> <h3>⛔ Choosing the Right Form</h3> <p align=\"justify\"\
       >\n  Please note that this form is specifically for reporting a\n  <b>non-security-related
-      bug in My New Project's Python API</b>,\n  i.e. an unexpected behavior that
+      bug in PyPackIT-Test1's Python API</b>,\n  i.e. an unexpected behavior that
       occurs while using the application as an import package.\n  To report a security
       vulnerability please first read our\n  <a href=\"https://github.com/AAriam/PyPackIT-Test1/blob/main/SECURITY.md\"\
       >security policy</a>, and fill a\n  <a href=\"https://github.com/AAriam/PyPackIT-Test1/security/advisories/new\"\
@@ -96,8 +96,7 @@ body:
   id: package_manager
   attributes:
     label: Package Manager
-    description: "Please select the package manager used to download and install My
-      New Project.\n"
+    description: "Please select the package manager used to download and install PyPackIT-Test1.\n"
     multiple: false
     options:
     - pip
@@ -107,7 +106,7 @@ body:
   id: version
   attributes:
     label: Package Version
-    description: "Please select all My New Project versions in which you have encountered
+    description: "Please select all PyPackIT-Test1 versions in which you have encountered
       the bug.\n"
     multiple: true
     options:
@@ -137,7 +136,7 @@ body:
     label: Fully Qualified Name
     description: Please provide the fully qualified name (e.g., `package_name.module_name.ClassName.method_name`)
       of the API endpoint that is causing the problem.
-    value: my_new_project.
+    value: pypackit_test1.
   validations:
     required: true
 - type: textarea
@@ -153,7 +152,7 @@ body:
     label: Test Case or Minimal Reproducible Example (MRE)
     description: Please provide a test case (preferred), or a minimal complete verifiable
       code example to reproduce the bug.
-    value: "import my_new_project\n\ndef test():\n    ...\n    assert ...\n"
+    value: "import pypackit_test1\n\ndef test():\n    ...\n    assert ...\n"
     render: python
   validations:
     required: true

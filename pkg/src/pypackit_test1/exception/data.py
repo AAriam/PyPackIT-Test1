@@ -4,7 +4,7 @@ from __future__ import annotations as _annotations
 
 from typing import TYPE_CHECKING as _TYPE_CHECKING
 
-from my_new_project.exception import PackageException as _PackageException
+from pypackit_test1.exception import PackageException as _PackageException
 
 if _TYPE_CHECKING:
     from pathlib import Path
