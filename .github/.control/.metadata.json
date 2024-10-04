@@ -597,7 +597,7 @@
          "Third Keyword",
          "Fourth Keyword",
          "Fifth Keyword",
-         "Sixth Keyword"
+         "Sixth Keyword New"
       ],
       "language": "eng",
       "license": "AGPL-3.0-or-later",
@@ -1010,6 +1010,26 @@
    },
    "discussion": {
       "category": {
+         "announcements": {
+            "id": "DIC_kwDOM7gV084CjEJa",
+            "name": "Announcements"
+         },
+         "general": {
+            "id": "DIC_kwDOM7gV084CjEJb",
+            "name": "General"
+         },
+         "ideas": {
+            "id": "DIC_kwDOM7gV084CjEJd",
+            "name": "Ideas"
+         },
+         "polls": {
+            "id": "DIC_kwDOM7gV084CjEJf",
+            "name": "Polls"
+         },
+         "q-a": {
+            "id": "DIC_kwDOM7gV084CjEJc",
+            "name": "Q&A"
+         },
          "question_issues": {
             "form": {
                "body": [
@@ -1092,6 +1112,10 @@
                ],
                "title": "[General] "
             }
+         },
+         "show-and-tell": {
+            "id": "DIC_kwDOM7gV084CjEJe",
+            "name": "Show and tell"
          }
       }
    },
@@ -1386,7 +1410,7 @@
       "Third Keyword",
       "Fourth Keyword",
       "Fifth Keyword",
-      "Sixth Keyword"
+      "Sixth Keyword New"
    ],
    "label": {
       "all": [
@@ -2636,7 +2660,7 @@
                         "Third Keyword",
                         "Fourth Keyword",
                         "Fifth Keyword",
-                        "Sixth Keyword"
+                        "Sixth Keyword New"
                      ]
                   }
                ],
@@ -2783,11 +2807,11 @@
             "typed": "pkg/src/pypackit_test1/py.typed"
          },
          "pkg_source": {
-            "my_new_project/__init__.py": "pkg/src/pypackit_test1/__init__.py",
-            "my_new_project/__main__.py": "pkg/src/pypackit_test1/__main__.py",
-            "my_new_project/data/__init__.py": "pkg/src/pypackit_test1/data/__init__.py",
-            "my_new_project/exception/__init__.py": "pkg/src/pypackit_test1/exception/__init__.py",
-            "my_new_project/exception/data.py": "pkg/src/pypackit_test1/exception/data.py"
+            "pypackit_test1/__init__.py": "pkg/src/pypackit_test1/__init__.py",
+            "pypackit_test1/__main__.py": "pkg/src/pypackit_test1/__main__.py",
+            "pypackit_test1/data/__init__.py": "pkg/src/pypackit_test1/data/__init__.py",
+            "pypackit_test1/exception/__init__.py": "pkg/src/pypackit_test1/exception/__init__.py",
+            "pypackit_test1/exception/data.py": "pkg/src/pypackit_test1/exception/data.py"
          },
          "pull_template": {
             "default": ".github/pull_request_template.md"
@@ -2803,9 +2827,9 @@
             "typed": "tests/src/pypackit_test1_testsuite/py.typed"
          },
          "test_source": {
-            "my_new_project_testsuite/__init__.py": "tests/src/pypackit_test1_testsuite/__init__.py",
-            "my_new_project_testsuite/__main__.py": "tests/src/pypackit_test1_testsuite/__main__.py",
-            "my_new_project_testsuite/data_tests.py": "tests/src/pypackit_test1_testsuite/data_tests.py"
+            "pypackit_test1_testsuite/__init__.py": "tests/src/pypackit_test1_testsuite/__init__.py",
+            "pypackit_test1_testsuite/__main__.py": "tests/src/pypackit_test1_testsuite/__main__.py",
+            "pypackit_test1_testsuite/data_tests.py": "tests/src/pypackit_test1_testsuite/data_tests.py"
          },
          "tool_config": {
             "codecov": ".github/.codecov.yml",
@@ -2963,7 +2987,7 @@
                         "Third Keyword",
                         "Fourth Keyword",
                         "Fifth Keyword",
-                        "Sixth Keyword"
+                        "Sixth Keyword New"
                      ]
                   }
                ],
@@ -3676,7 +3700,7 @@
          "third-keyword",
          "fourth-keyword",
          "fifth-keyword",
-         "sixth-keyword"
+         "sixth-keyword-new"
       ],
       "url": {
          "actions": {
@@ -3686,7 +3710,13 @@
          "discussions": {
             "home": "https://github.com/AAriam/PyPackIT-Test1/discussions",
             "new": {
-               "question_issues": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=question_issues"
+               "announcements": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=announcements",
+               "general": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=general",
+               "ideas": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=ideas",
+               "polls": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=polls",
+               "q-a": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=q-a",
+               "question_issues": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=question_issues",
+               "show-and-tell": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=show-and-tell"
             }
          },
          "home": "https://github.com/AAriam/PyPackIT-Test1",
@@ -3738,7 +3768,7 @@
          "third-keyword",
          "fourth-keyword",
          "fifth-keyword",
-         "sixth-keyword"
+         "sixth-keyword-new"
       ],
       "name": "pypackit-test1",
       "repo_name": "pypackit-test1"
