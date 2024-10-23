@@ -893,6 +893,26 @@
    },
    "discussion": {
       "category": {
+         "announcements": {
+            "id": "DIC_kwDONEla984CjnaY",
+            "name": "Announcements"
+         },
+         "general": {
+            "id": "DIC_kwDONEla984CjnaZ",
+            "name": "General"
+         },
+         "ideas": {
+            "id": "DIC_kwDONEla984Cjnab",
+            "name": "Ideas"
+         },
+         "polls": {
+            "id": "DIC_kwDONEla984Cjnad",
+            "name": "Polls"
+         },
+         "q-a": {
+            "id": "DIC_kwDONEla984Cjnaa",
+            "name": "Q&A"
+         },
          "question_issues": {
             "form": {
                "body": [
@@ -975,6 +995,10 @@
                ],
                "title": "[General] "
             }
+         },
+         "show-and-tell": {
+            "id": "DIC_kwDONEla984Cjnac",
+            "name": "Show and tell"
          }
       }
    },
@@ -987,7 +1011,7 @@
                "value": "\n\n**TBD**\n\n"
             },
             "description": {
-               "value": "**TBD**"
+               "value": "\n\n**TBD**\n\n"
             },
             "plan": {
                "value": "\n\n**TBD**\n\n"
@@ -1265,10 +1289,7 @@
                      "label": "Python Version",
                      "multiple": true,
                      "options": [
-                        "3.13",
-                        "3.12",
-                        "3.11",
-                        "3.10"
+                        "3.12"
                      ]
                   },
                   "id": "python_version",
@@ -1507,10 +1528,7 @@
                      "label": "Python Version",
                      "multiple": true,
                      "options": [
-                        "3.13",
-                        "3.12",
-                        "3.11",
-                        "3.10"
+                        "3.12"
                      ]
                   },
                   "id": "python_version",
@@ -1737,10 +1755,7 @@
                      "label": "Python Version",
                      "multiple": true,
                      "options": [
-                        "3.13",
-                        "3.12",
-                        "3.11",
-                        "3.10"
+                        "3.12"
                      ]
                   },
                   "id": "python_version",
@@ -1974,10 +1989,7 @@
                      "label": "Python Version",
                      "multiple": true,
                      "options": [
-                        "3.13",
-                        "3.12",
-                        "3.11",
-                        "3.10"
+                        "3.12"
                      ]
                   },
                   "id": "python_version",
@@ -3598,10 +3610,7 @@
                      "label": "Python Version",
                      "multiple": true,
                      "options": [
-                        "3.13",
-                        "3.12",
-                        "3.11",
-                        "3.10"
+                        "3.12"
                      ]
                   },
                   "id": "python_version",
@@ -3840,10 +3849,7 @@
                      "label": "Python Version",
                      "multiple": true,
                      "options": [
-                        "3.13",
-                        "3.12",
-                        "3.11",
-                        "3.10"
+                        "3.12"
                      ]
                   },
                   "id": "python_version",
@@ -4070,10 +4076,7 @@
                      "label": "Python Version",
                      "multiple": true,
                      "options": [
-                        "3.13",
-                        "3.12",
-                        "3.11",
-                        "3.10"
+                        "3.12"
                      ]
                   },
                   "id": "python_version",
@@ -4307,10 +4310,7 @@
                      "label": "Python Version",
                      "multiple": true,
                      "options": [
-                        "3.13",
-                        "3.12",
-                        "3.11",
-                        "3.10"
+                        "3.12"
                      ]
                   },
                   "id": "python_version",
@@ -8090,10 +8090,7 @@
       "classifiers": [
          "Operating System :: OS Independent",
          "Programming Language :: Python :: 3 :: Only",
-         "Programming Language :: Python :: 3.10",
-         "Programming Language :: Python :: 3.11",
          "Programming Language :: Python :: 3.12",
-         "Programming Language :: Python :: 3.13",
          "Typing :: Typed",
          "Development Status :: 1 - Planning"
       ],
@@ -8191,56 +8188,15 @@
          "pure": true,
          "version": {
             "micros": [
-               "3.10.0",
-               "3.10.1",
-               "3.10.2",
-               "3.10.3",
-               "3.10.4",
-               "3.10.5",
-               "3.10.6",
-               "3.10.7",
-               "3.10.8",
-               "3.10.9",
-               "3.10.10",
-               "3.10.11",
-               "3.10.12",
-               "3.10.13",
-               "3.10.14",
-               "3.10.15",
-               "3.11.0",
-               "3.11.1",
-               "3.11.2",
-               "3.11.3",
-               "3.11.4",
-               "3.11.5",
-               "3.11.6",
-               "3.11.7",
-               "3.11.8",
-               "3.11.9",
-               "3.11.10",
-               "3.12.0",
-               "3.12.1",
-               "3.12.2",
-               "3.12.3",
-               "3.12.4",
-               "3.12.5",
-               "3.12.6",
-               "3.12.7",
-               "3.13.0"
+               "3.12.0"
             ],
             "minors": [
-               "3.10",
-               "3.11",
-               "3.12",
-               "3.13"
+               "3.12"
             ],
             "pyxy": [
-               "py310",
-               "py311",
-               "py312",
-               "py313"
+               "py312"
             ],
-            "spec": ">= 3.10"
+            "spec": "== 3.12"
          }
       },
       "readme": {
@@ -8486,11 +8442,11 @@
             "typed": "pkg/src/pypackit_test1/py.typed"
          },
          "pkg_source": {
-            "my_new_project/__init__.py": "pkg/src/pypackit_test1/__init__.py",
-            "my_new_project/__main__.py": "pkg/src/pypackit_test1/__main__.py",
-            "my_new_project/data/__init__.py": "pkg/src/pypackit_test1/data/__init__.py",
-            "my_new_project/exception/__init__.py": "pkg/src/pypackit_test1/exception/__init__.py",
-            "my_new_project/exception/data.py": "pkg/src/pypackit_test1/exception/data.py"
+            "pypackit_test1/__init__.py": "pkg/src/pypackit_test1/__init__.py",
+            "pypackit_test1/__main__.py": "pkg/src/pypackit_test1/__main__.py",
+            "pypackit_test1/data/__init__.py": "pkg/src/pypackit_test1/data/__init__.py",
+            "pypackit_test1/exception/__init__.py": "pkg/src/pypackit_test1/exception/__init__.py",
+            "pypackit_test1/exception/data.py": "pkg/src/pypackit_test1/exception/data.py"
          },
          "pull_template": {
             "default": ".github/pull_request_template.md"
@@ -8506,9 +8462,9 @@
             "typed": "tests/src/pypackit_test1_testsuite/py.typed"
          },
          "test_source": {
-            "my_new_project_testsuite/__init__.py": "tests/src/pypackit_test1_testsuite/__init__.py",
-            "my_new_project_testsuite/__main__.py": "tests/src/pypackit_test1_testsuite/__main__.py",
-            "my_new_project_testsuite/data_tests.py": "tests/src/pypackit_test1_testsuite/data_tests.py"
+            "pypackit_test1_testsuite/__init__.py": "tests/src/pypackit_test1_testsuite/__init__.py",
+            "pypackit_test1_testsuite/__main__.py": "tests/src/pypackit_test1_testsuite/__main__.py",
+            "pypackit_test1_testsuite/data_tests.py": "tests/src/pypackit_test1_testsuite/data_tests.py"
          },
          "tool_config": {
             "codecov": ".github/.codecov.yml",
@@ -8551,10 +8507,7 @@
          "pypackit_test1"
       ],
       "python_versions": [
-         "3.13",
-         "3.12",
-         "3.11",
-         "3.10"
+         "3.12"
       ],
       "test_cli_names": [
          "PyPackIT-Test1-TestSuite"
@@ -8583,10 +8536,7 @@
                "pypackit_test1"
             ],
             "python_versions": [
-               "3.10",
-               "3.11",
-               "3.12",
-               "3.13"
+               "3.12"
             ],
             "test_cli_names": [
                "PyPackIT-Test1-TestSuite"
@@ -9406,7 +9356,13 @@
          "discussions": {
             "home": "https://github.com/AAriam/PyPackIT-Test1/discussions",
             "new": {
-               "question_issues": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=question_issues"
+               "announcements": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=announcements",
+               "general": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=general",
+               "ideas": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=ideas",
+               "polls": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=polls",
+               "q-a": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=q-a",
+               "question_issues": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=question_issues",
+               "show-and-tell": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=show-and-tell"
             }
          },
          "home": "https://github.com/AAriam/PyPackIT-Test1",
@@ -9631,10 +9587,7 @@
       "classifiers": [
          "Operating System :: OS Independent",
          "Programming Language :: Python :: 3 :: Only",
-         "Programming Language :: Python :: 3.10",
-         "Programming Language :: Python :: 3.11",
          "Programming Language :: Python :: 3.12",
-         "Programming Language :: Python :: 3.13",
          "Typing :: Typed"
       ],
       "dependency": {
@@ -9797,59 +9750,8 @@
       },
       "python": {
          "implementation": "cpython",
-         "pure": true,
          "version": {
-            "micros": [
-               "3.10.0",
-               "3.10.1",
-               "3.10.2",
-               "3.10.3",
-               "3.10.4",
-               "3.10.5",
-               "3.10.6",
-               "3.10.7",
-               "3.10.8",
-               "3.10.9",
-               "3.10.10",
-               "3.10.11",
-               "3.10.12",
-               "3.10.13",
-               "3.10.14",
-               "3.10.15",
-               "3.11.0",
-               "3.11.1",
-               "3.11.2",
-               "3.11.3",
-               "3.11.4",
-               "3.11.5",
-               "3.11.6",
-               "3.11.7",
-               "3.11.8",
-               "3.11.9",
-               "3.11.10",
-               "3.12.0",
-               "3.12.1",
-               "3.12.2",
-               "3.12.3",
-               "3.12.4",
-               "3.12.5",
-               "3.12.6",
-               "3.12.7",
-               "3.13.0"
-            ],
-            "minors": [
-               "3.10",
-               "3.11",
-               "3.12",
-               "3.13"
-            ],
-            "pyxy": [
-               "py310",
-               "py311",
-               "py312",
-               "py313"
-            ],
-            "spec": ">= 3.10"
+            "spec": "== 3.12"
          }
       },
       "typed": true,
@@ -10618,7 +10520,7 @@
                      "pkg/src",
                      "tests/src"
                   ],
-                  "target-version": "py310"
+                  "target-version": "py312"
                },
                "path": ".github/.ruff.toml",
                "type": "toml"

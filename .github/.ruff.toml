@@ -5,7 +5,7 @@ output-format = "grouped"
 required-version = "== 0.6.6"
 show-fixes = true
 src = ["pkg/src", "tests/src"]
-target-version = "py310"
+target-version = "py312"
 
 [format]
 docstring-code-format = true
