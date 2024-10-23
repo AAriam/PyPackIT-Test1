@@ -1,4 +1,4 @@
-name: my-new-project-dev
+name: pypackit-test1-dev
 channels:
 - conda-forge
 - defaults

@@ -6,7 +6,7 @@ import argparse
 import json
 import sys
 
-import my_new_project_testsuite as testsuite
+import pypackit_test1_testsuite as testsuite
 
 
 class TestSuiteCLIInputError(Exception):

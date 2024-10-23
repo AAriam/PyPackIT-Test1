@@ -1,4 +1,4 @@
-"""My New Project Test-Suite.
+"""PyPackIT Test1 Test-Suite.
 
 2024 Armin Ariamajd
 SPDX-License-Identifier: MIT

@@ -3,7 +3,7 @@
 import argparse
 import sys
 
-from my_new_project import __version__
+from pypackit_test1 import __version__
 
 
 def main() -> int:

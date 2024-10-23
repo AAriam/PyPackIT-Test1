@@ -1,4 +1,4 @@
-name: my-new-project-testsuite
+name: pypackit-test1-testsuite
 channels:
 - conda-forge
 - defaults
