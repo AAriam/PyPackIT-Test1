@@ -6,6 +6,9 @@ pkg:
   readme:
     path: ${{ pkg.path.root }}/README.md
     content: ${{ readme.main.content }}
+  python:
+    version:
+      spec: '== 3.12'
   urls:
     Homepage: ${{ web.url.home }}
     Documentation: ${{ web.page.manual.url }}
