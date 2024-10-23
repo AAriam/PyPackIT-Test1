@@ -8,7 +8,7 @@ pkg:
     content: ${{ readme.main.content }}
   python:
     version:
-      spec: '== 3.12'
+      spec: '== 3.12.*'
   urls:
     Homepage: ${{ web.url.home }}
     Documentation: ${{ web.page.manual.url }}
