@@ -1943,8 +1943,6 @@ issue:
               height: ${{ __custom__.badge.height }}$
               label_color: ${{ __custom__.badge.color.grey }}$
               separator: ${{ __custom__.badge.separator }}$
-              service: github
-              endpoint: issue_details
               args:
                 user: ${{ repo.owner }}$
                 repo: ${{ repo.name }}$
@@ -1964,10 +1962,14 @@ issue:
                   title: '{{ ccc.label.status.label[status.value].description }}'
                   color: >-
                     {{ ccc.label.status.label[status.value].color if ccc.label.status.label[status.value].color is defined else ccc.label.status.color }}
-                - label: Last Update
+                - service: github
+                  endpoint: issue_details
+                  label: Last Update
                   args:
                     property: last-update
-                - label: Comments
+                - service: github
+                  endpoint: issue_details
+                  label: Comments
                   args:
                     property: comments
             - |
@@ -2144,7 +2146,7 @@ issue:
         - heading: Plan
           body: |
             {{ data.summary }}
-
+            
             {{ data.description }}
         - heading: Software Requirements Specification (SRS)
           body: |
