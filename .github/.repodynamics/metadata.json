@@ -10897,11 +10897,11 @@
                               "service": "github"
                            },
                            {
-                              "Label": "Submitted By",
                               "args": {
                                  "message": "{{ issue.user.name.full }}"
                               },
                               "color": "#0B3C75",
+                              "label": "Submitted By",
                               "link": "{{ issue.user.github.url }}",
                               "service": "static"
                            }
@@ -11560,8 +11560,8 @@
          "Programming Language :: Python :: 3.11",
          "Programming Language :: Python :: 3.12",
          "Programming Language :: Python :: 3.13",
-         "Operating System :: Microsoft :: Windows",
          "Operating System :: MacOS",
+         "Operating System :: Microsoft :: Windows",
          "Operating System :: POSIX :: Linux",
          "Operating System :: OS Independent",
          "Development Status :: 4 - Beta",
@@ -12208,11 +12208,11 @@
                               "label": "Submitted"
                            },
                            {
-                              "Label": "Submitted By",
                               "args": {
                                  "message": "{{ issue.user.name.full }}"
                               },
                               "color": "#0B3C75",
+                              "label": "Submitted By",
                               "link": "{{ issue.user.github.url }}",
                               "service": "static"
                            }
