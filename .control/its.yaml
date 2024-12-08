@@ -2008,7 +2008,7 @@ issue:
                     property: age
                   color: ${{ __custom__.badge.color.blue }}$
                 - service: static
-                  Label: Submitted By
+                  label: Submitted By
                   args:
                     message: '{{ issue.user.name.full }}'
                   link: '{{ issue.user.github.url }}'
@@ -2146,7 +2146,7 @@ issue:
         - heading: Plan
           body: |
             {{ data.summary }}
-
+            
             {{ data.description }}
         - heading: Software Requirements Specification (SRS)
           body: |
@@ -2763,7 +2763,7 @@ pull:
                     property: age
                   color: ${{ __custom__.badge.color.blue }}$
                 - service: static
-                  Label: Submitted By
+                  label: Submitted By
                   args:
                     message: '{{ issue.user.name.full }}'
                   link: '{{ issue.user.github.url }}'
