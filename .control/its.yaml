@@ -1905,7 +1905,8 @@ issue:
       gui_names: ${{ project.test_gui_names }}$
   protocol:
     config:
-      pr_title: '{{ data.summary }}'
+      default:
+        pr_title: '{{ data.summary }}'
     template:
       heading: 'Development Protocol #{{ issue.number }}'
       body:
@@ -2146,7 +2147,7 @@ issue:
         - heading: Plan
           body: |
             {{ data.summary }}
-
+            
             {{ data.description }}
         - heading: Software Requirements Specification (SRS)
           body: |
@@ -2158,12 +2159,16 @@ issue:
           body: |
             <div align="center">
 
-            {{ timeline }}
+            {{ data.timeline }}
 
             </div>
+            
+            {{ config }}
+            
+            {{ inputs }}
     data:
       summary:
-        value: '\n\n**TBD**\n\n'
+        value: "\n\n**TBD**\n\n"
       description:
         value: "\n\n\n"
       triage:
