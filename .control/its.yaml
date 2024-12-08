@@ -1987,8 +1987,6 @@ issue:
               height: ${{ __custom__.badge.height }}$
               label_color: ${{ __custom__.badge.color.grey }}$
               separator: ${{ __custom__.badge.separator }}$
-              service: github
-              endpoint: issue_details
               args:
                 user: ${{ repo.owner }}$
                 repo: ${{ repo.name }}$
@@ -2001,7 +1999,9 @@ issue:
                     message: '{{ form.name }}'
                   title: '{{ form.description }}'
                   color: ${{ __custom__.badge.color.blue }}$
-                - label: Submitted
+                - service: github
+                  endpoint: issue_details
+                  label: Submitted
                   args:
                     property: age
                   color: ${{ __custom__.badge.color.blue }}$
@@ -2144,7 +2144,7 @@ issue:
         - heading: Plan
           body: |
             {{ data.summary }}
-
+            
             {{ data.description }}
         - heading: Software Requirements Specification (SRS)
           body: |
