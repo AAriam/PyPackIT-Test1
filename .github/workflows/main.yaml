@@ -1,0 +1,232 @@
+# Project's main software development workflow.
+
+name: 'Workflow'
+run-name: '${{ github.event_name }}: ${{ github.ref }}'
+on:
+  issues:
+    types:
+      - opened
+      - edited
+      - labeled
+      - assigned
+      - unassigned
+      - unlabeled
+      - locked
+      - unlocked
+  issue_comment:
+    types:
+      - created
+      - edited
+  pull_request:
+    types:
+      - assigned
+      - auto_merge_disabled
+      - auto_merge_enabled
+      - closed
+      - converted_to_draft
+      - demilestoned
+      - dequeued
+      - edited
+      - enqueued
+      - labeled
+      - locked
+      - milestoned
+      - opened
+      - ready_for_review
+      - reopened
+      - review_request_removed
+      - review_requested
+      - synchronize
+      - unassigned
+      - unlabeled
+      - unlocked
+  pull_request_target:
+    types:
+      - opened
+  push:
+  schedule:
+    - cron: '43 23 * * *'  # Every day at 23:43 UTC.
+    - cron: '43 6 * * 6'   # Every Saturday at 6:43 UTC.
+  workflow_dispatch:
+    inputs:
+      cca:
+        description: CCA
+        type: choice
+        options:
+          - disabled
+          - report
+          - pull
+          - merge
+          - commit
+          - amend
+        default: disabled
+        required: true
+      refactor:
+        description: Refactoring
+        type: choice
+        options:
+          - disabled
+          - report
+          - pull
+          - merge
+          - commit
+          - amend
+        default: disabled
+        required: true
+      web:
+        description: Website
+        type: choice
+        options:
+          - disabled
+          - build
+          - deploy
+        default: disabled
+        required: true
+      build:
+        description: Build
+        type: boolean
+        default: false
+        required: true
+      test:
+        description: Test
+        type: boolean
+        default: false
+        required: true
+      release:
+        description: Release v1
+        type: boolean
+        default: false
+        required: true
+jobs:
+  main:
+    name: Project
+    # If the event is 'pull_request_target', only run if its from a fork.
+    if: >-
+      (
+          github.event_name != 'pull_request_target'
+          || github.event.pull_request.head.repo.full_name != github.repository
+      ) && (
+          github.event_name != 'push'
+          || (github.ref_type == 'branch' && github.ref_name == github.event.repository.default_branch)
+      )
+    uses: ./.github/workflows/_manager.yaml
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    secrets:
+      repo-admin-token: ${{ secrets.REPO_ADMIN_TOKEN }}
+      zenodo-token: ${{ secrets.ZENODO_TOKEN }}
+      zenodo-sandbox-token: ${{ secrets.ZENODO_SANDBOX_TOKEN }}
+  web:
+    name: ${{ matrix.config.name }}
+    needs: main
+    if: fromJSON(needs.main.outputs.web)
+    strategy:
+      fail-fast: false
+      matrix:
+        config: ${{ fromJSON(needs.main.outputs.web) }}
+    permissions:
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/_web.yaml
+    with:
+      config: ${{ toJSON(matrix.config.job) }}
+  lint:
+    name: ${{ matrix.config.name }}
+    needs: main
+    if: fromJSON(needs.main.outputs.lint)
+    permissions:
+      pull-requests: write
+      security-events: write
+      actions: read
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        config: ${{ fromJSON(needs.main.outputs.lint) }}
+    uses: ./.github/workflows/_lint.yaml
+    with:
+      config: ${{ toJSON(matrix.config.job) }}
+  test:
+    name: ${{ matrix.config.name }}
+    needs: main
+    if: fromJSON(needs.main.outputs.test)
+    permissions:
+      id-token: write
+    strategy:
+      fail-fast: false
+      matrix:
+        config: ${{ fromJSON(needs.main.outputs.test) }}
+    uses: ./.github/workflows/_test.yaml
+    with:
+      config: ${{ toJSON(matrix.config.job) }}
+  build:
+    name: ${{ matrix.config.name }}
+    needs: main
+    if: fromJSON(needs.main.outputs.build)
+    strategy:
+      fail-fast: false
+      matrix:
+        config: ${{ fromJSON(needs.main.outputs.build) }}
+    uses: ./.github/workflows/_build.yaml
+    with:
+      config: ${{ toJSON(matrix.config.job) }}
+  binder:
+    name: ${{ matrix.config.name }}
+    needs: [main, web, lint, test, build]
+    if: fromJSON(needs.main.outputs.binder)
+    strategy:
+      fail-fast: false
+      matrix:
+        config: ${{ fromJSON(needs.main.outputs.binder) }}
+    uses: ./.github/workflows/_binder.yaml
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
+    secrets:
+      container-registry-token: ${{ secrets.CONTAINER_REGISTRY_TOKEN }}
+    with:
+      config: ${{ toJSON(matrix.config.job) }}
+  publish-testpypi:
+    name: ${{ fromJSON(needs.main.outputs.publish-testpypi).name }}
+    needs: [main, web, lint, test, build]
+    if: fromJSON(needs.main.outputs.publish-testpypi)
+    permissions:
+      id-token: write
+    uses: ./.github/workflows/_publish.yaml
+    with:
+      config: ${{ toJSON(fromJSON(needs.main.outputs.publish-testpypi).job) }}
+  publish-anaconda:
+    name: ${{ fromJSON(needs.main.outputs.publish-anaconda).name }}
+    needs: [ main, web, lint, test, build ]
+    if: fromJSON(needs.main.outputs.publish-anaconda)
+    uses: ./.github/workflows/_publish_anaconda.yaml
+    secrets:
+      anaconda-token: ${{ secrets.ANACONDA_TOKEN }}
+    with:
+      config: ${{ toJSON(fromJSON(needs.main.outputs.publish-anaconda).job) }}
+  publish-pypi:
+    name: ${{ fromJSON(needs.main.outputs.publish-pypi).name }}
+    needs: [ main, publish-testpypi ]
+    if: fromJSON(needs.main.outputs.publish-pypi)
+    permissions:
+      id-token: write
+    uses: ./.github/workflows/_publish.yaml
+    with:
+      config: ${{ toJSON(fromJSON(needs.main.outputs.publish-pypi).job) }}
+  release:
+    name: ${{ fromJSON(needs.main.outputs.release).name }}
+    needs: [ main, web, lint, test, build, publish-pypi ]
+    if: ${{ !cancelled() && !failure() && fromJSON(needs.main.outputs.release) }}
+    permissions:
+      contents: write
+      discussions: write
+    uses: ./.github/workflows/_release.yaml
+    with:
+      config: ${{ toJSON(fromJSON(needs.main.outputs.release).job) }}
+    secrets:
+      zenodo-token: ${{ secrets.ZENODO_TOKEN }}
+      zenodo-sandbox-token: ${{ secrets.ZENODO_SANDBOX_TOKEN }}

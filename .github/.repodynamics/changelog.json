@@ -1,0 +1,18 @@
+[
+   {
+      "date": "2024-12-08",
+      "description": "This is an initial emtpy release.",
+      "github": {
+         "id": 189576895,
+         "node_id": "RE_kwDONaiNZs4LTLa_"
+      },
+      "title": "Project Initialization",
+      "type": "major",
+      "version": "0.0.10",
+      "zenodo": {
+         "doi": "10.5281/zenodo.14306285",
+         "draft": true,
+         "id": 14306285
+      }
+   }
+]

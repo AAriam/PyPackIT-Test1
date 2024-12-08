@@ -1,0 +1,227 @@
+title: A New Python Project
+abstract: >-
+  Welcome to ${{ name }}$ powered by <a href="https://pypackit.repodynamics.com/">PyPackIT</a>.
+  Replace this text with a short abstract of ${{ name }}$,
+  describing its purpose and main features.
+  By default, this text is displayed on the repository's main README file,
+  on the homepage of the project's website,
+  on the project's PyPI and TestPyPI pages,
+  and on the package's main docstring.
+  Like all other entries in the repository's control center,
+  this text can also contain dynamic references to other entries,
+  using the <code>${‎{ json-path.to.value }}$</code> syntax.
+  By default, the first occurrence of the name of the project
+  in this text is styled as strong and linked to the project's website.
+keywords:
+  - First Keyword
+  - Second Keyword
+  - Third Keyword
+  - Fourth Keyword
+  - Fifth Keyword
+  - Sixth Keyword
+highlights:
+  - title: First Key Feature
+    description: >-
+      Description of the first key feature of ${{ name }}$.
+      By default, these highlights are displayed on the repository's main README file,
+      on the homepage of the project's website, and on the project's PyPI and TestPyPI pages.
+  - title: Second Key Feature
+    description: >-
+      Description of the second key feature of ${{ name }}$.
+      For aesthetic reasons, it is recommended to keep the descriptions of all items
+      in this list approximately the same length.
+  - title: Third Key Feature
+    description: >-
+      Description of the third key feature of ${{ name }}$.
+      You can add as many keynotes as you want.
+      However, in order to keep the READMEs clean and tidy,
+      it is recommended to keep the number of keynotes between 3 and 7.
+license:
+  expression: MIT
+role:
+  supervisor:
+    title: Supervisor
+    description: |
+      Responsible for overseeing the project and guiding its development.
+    abbreviation: SUP
+    type: Supervisor
+  lead:
+    title: Project Leader
+    description: |
+      Responsible for leading the project and making key decisions.
+    abbreviation: LEAD
+    type: ProjectLeader
+    ownership:
+      - glob: "*"
+        priority: 1
+        description: Default owner of all unassigned files.
+  manager:
+    title: Project Manager
+    description: |
+      Responsible for maintaining the project and its resources.
+    abbreviation: MGR
+    type: ProjectManager
+    assignment:
+      issue: ".*"
+      review: ".*"
+  author:
+    title: Author
+    description: |
+      Responsible for creating the project and its content.
+    abbreviation: AUT
+    type: Author
+    assignment:
+      pull: ".*"
+  contact:
+    title: Contact Person
+    description: |
+      Responsible for communication with project users and contributors.
+    abbreviation: CNT
+    type: ContactPerson
+    assignment:
+      discussion: ".*"
+  security:
+    title: Security Adviser
+    description: |
+      Responsible for ensuring the security of the project and
+      handling security-related issues.
+    abbreviation: SEC
+    type: ProjectMember
+  coc:
+    title: Code of Conduct Supervisor
+    description: |
+      Responsible for ensuring that the project's code of conduct is enforced.
+    abbreviation: COC
+    type: ProjectMember
+team:
+  owner:
+    role:
+      supervisor: 1
+      lead: 1
+      manager: 1
+      author: 1
+      contact: 1
+      security: 1
+      coc: 1
+citation:
+  cff:
+    authors: |
+      #{{
+        return [
+          {"id": int_author["id"], "member": True}
+          for int_author in team_members_with_role_types("Author", active_only=True)
+        ] + [
+          {"id": ext_author["id"], "member": False}
+          for ext_author in changelog.current_public.contributors_with_role_types("Author", member=False)
+        ]
+      }}#
+    contacts: |
+      #{{
+          return [
+            member["id"] for member in team_members_with_role_types(
+              "ContactPerson",
+              active_only=True,
+            )
+          ]
+      }}#
+    doi: |
+      #{{
+        curr_changelog = changelog.current_public
+        return curr_changelog.get(
+          "zenodo_sandbox" if curr_changelog.get("phase") == "dev" else "zenodo", {}
+        ).get("doi")
+      }}#
+    version: >-
+      #{{ return changelog.current_public.get("version") }}#
+    date_released: >-
+      #{{ return changelog.current_public.get("date") }}#
+    commit: >-
+      #{{ return changelog.current_public.get("commit", {}).get("sha") }}#
+    repository:
+      build: ${{ pkg.pypi.url.home }}$
+    identifiers:
+      - |
+        *{{
+          #{{
+            out = []
+            concept_doi = get("var.zenodo.concept.doi")
+            if concept_doi:
+              entry = {
+                "type": "doi",
+                "value": concept_doi,
+                "description": "Persistent DOI of the project as a whole."
+              }
+              out.append(entry)
+            return out
+          }}#
+        }}*
+  zenodo:
+    license: '#{{ return get("citation.cff.license")[0] }}#'
+    keywords: ${{ citation.cff.keywords }}$
+    related_identifiers:
+      - |
+        *{{
+          #{{
+            last_doi = changelog.last_public.get("zenodo", {}).get("doi")
+            out = [
+              {
+                "identifier": doi,
+                "relation": relation,
+                "resource_type": get("..upload_type")
+              } for doi, relation in [
+                (get("var.zenodo.concept.doi"), "isPartOf"),
+                (last_doi, "isNewVersionOf"),
+              ] if doi
+            ]
+            return out
+          }}#
+        }}*
+    contributors: |
+      #{{
+        out = []
+        for role_type in (
+          "RightsHolder",
+          "Producer",
+          "Distributor",
+          "Sponsor",
+          "RegistrationAgency",
+          "RegistrationAuthority",
+          "HostingInstitution",
+          "Supervisor",
+          "ProjectLeader",
+          "WorkPackageLeader",
+          "ContactPerson",
+          "ProjectManager",
+          "DataManager",
+          "Editor",
+          "ResearchGroup",
+          "Researcher",
+          "DataCurator",
+          "DataCollector",
+          "ProjectMember",
+          "RelatedPerson",
+          "Other",
+        ):
+          for is_member in (True, False):
+            for contributor in changelog.current_public.contributors_with_role_types(role_type, member=is_member):
+              out.append({"id": contributor["id"], "member": is_member, "role_types": role_type})
+          for member in team_members_with_role_types(role_type, active_only=True):
+            entry = {"id": member["id"], "member": True, "role_types": role_type}
+            if entry not in out:
+              out.append(entry)
+        return out
+      }}#
+    custom:
+      code:programmingLanguage:
+        - id: python
+      code:developmentStatus:
+        id: >-
+          #{{ return "concept" if get("version", "").startswith("0") else "active" }}#
+
+color:
+  primary:
+    light: '#0F3460'
+    dark: '#3A98B9'
+  secondary:
+    light: '#562B08'
+    dark: '#E3651D'

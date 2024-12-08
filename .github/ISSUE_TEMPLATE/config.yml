@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🎓️  Learn More
+    about: Not sure where to start? Read our contribution guide to learn more.
+    url: https://AAriam.github.io/PyPackIT-Test1/contribute
+  - name: 💬  Contact Us
+    about: Have another inquiry or need help? Contact us directly!
+    url: https://AAriam.github.io/PyPackIT-Test1/about/contact

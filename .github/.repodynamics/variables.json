@@ -1,0 +1,16 @@
+{
+   "zenodo": {
+      "concept": {
+         "doi": "10.5281/zenodo.14306284",
+         "draft": true,
+         "id": 14306284
+      }
+   },
+   "zenodo_sandbox": {
+      "concept": {
+         "doi": "10.5072/zenodo.140858",
+         "draft": false,
+         "id": 140858
+      }
+   }
+}
