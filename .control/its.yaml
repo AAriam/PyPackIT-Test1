@@ -2144,7 +2144,7 @@ issue:
         - heading: Plan
           body: |
             {{ data.summary }}
-            
+
             {{ data.description }}
         - heading: Software Requirements Specification (SRS)
           body: |
