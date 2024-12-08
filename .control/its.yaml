@@ -1977,7 +1977,7 @@ issue:
               {%- if pull_requests -%}
               The implementation, testing, and deployment are tracked in the following PRs:
               {% for pull in pull_requests -%}
-              - [{{ "X" if pull.merged " " }}] #{{ pull.number }} (branch: [`{{ pull.head.name }}`]({{ pull.head.url.homepage }}))
+              - [{{ "X" if pull.merged else " " }}] #{{ pull.number }} (branch: [`{{ pull.head.name }}`]({{ pull.head.url.homepage }}))
               {% endfor -%}
               {%- endif -%}
         - heading: User Requirements Document (URD)
@@ -2144,7 +2144,7 @@ issue:
         - heading: Plan
           body: |
             {{ data.summary }}
-
+            
             {{ data.description }}
         - heading: Software Requirements Specification (SRS)
           body: |
