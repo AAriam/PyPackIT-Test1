@@ -10822,7 +10822,6 @@
                            "user": "AAriam"
                         },
                         "class": "badges",
-                        "endpoint": "issue_details",
                         "height": "23px",
                         "items": [
                            {
@@ -10846,18 +10845,21 @@
                               "args": {
                                  "property": "last-update"
                               },
-                              "label": "Last Update"
+                              "endpoint": "issue_details",
+                              "label": "Last Update",
+                              "service": "github"
                            },
                            {
                               "args": {
                                  "property": "comments"
                               },
-                              "label": "Comments"
+                              "endpoint": "issue_details",
+                              "label": "Comments",
+                              "service": "github"
                            }
                         ],
                         "label_color": "#494949",
                         "separator": 2,
-                        "service": "github",
                         "style": "flat-square"
                      },
                      "{%- for id in [\"triage\", \"planning\", \"requirement_analysis\", \"design\"] -%}\n- [{{ \"X\" if status > id else \" \" }}] {{ id.replace(\"_\", \" \").title() }}\n{% endfor -%}\n{%- if pull_requests -%}\nThe implementation, testing, and deployment are tracked in the following PRs:\n{% for pull in pull_requests -%}\n- [{{ \"X\" if pull.merged else \" \" }}] #{{ pull.number }} (branch: [`{{ pull.head.name }}`]({{ pull.head.url.homepage }}))\n{% endfor -%}\n{%- endif -%}\n"
@@ -11558,9 +11560,9 @@
          "Programming Language :: Python :: 3.11",
          "Programming Language :: Python :: 3.12",
          "Programming Language :: Python :: 3.13",
-         "Operating System :: POSIX :: Linux",
-         "Operating System :: MacOS",
          "Operating System :: Microsoft :: Windows",
+         "Operating System :: MacOS",
+         "Operating System :: POSIX :: Linux",
          "Operating System :: OS Independent",
          "Development Status :: 4 - Beta",
          "Typing :: Typed"
