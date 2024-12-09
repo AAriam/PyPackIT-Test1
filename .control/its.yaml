@@ -1952,9 +1952,9 @@ issue:
                 - service: static
                   label: State
                   args:
-                    message: '{{ issue.state.value }}'
+                    message: '{{ issue.state }}'
                   color: >-
-                    {{ ccc.__custom__.badge.color.green if issue.state.value == "open" else ccc.__custom__.badge.color.red }}
+                    {{ ccc.__custom__.badge.color.green if issue.state == "open" else ccc.__custom__.badge.color.red }}
                 - service: static
                   label: Last Status
                   args:
@@ -2146,7 +2146,7 @@ issue:
         - heading: Plan
           body: |
             {{ data.summary }}
-
+            
             {{ data.description }}
         - heading: Software Requirements Specification (SRS)
           body: |
@@ -2158,9 +2158,9 @@ issue:
             {{ data.timeline }}
 
             </div>
-
+            
             {{ config }}
-
+            
             {{ inputs }}
     data:
       summary:
@@ -2210,7 +2210,7 @@ issue:
             {%- elif action == "synchronize" -%}
               New commits pushed to [{{ pull_request.head.name }}]({{ pull_request.head.url.homepage }}) (CI [{{ context.run_id }}]({{ context.run_url }})).
             {%- elif action == "labeled" -%}
-              {%- set category = label.category.value -%}
+              {%- set category = label.category -%}
               {%- if category == "type" -%}
                   Type set to `{{ label.suffix }}`.
               {%- elif category == "scope" -%}
@@ -2220,7 +2220,7 @@ issue:
               {%- elif category == "branch" -%}
                     Target branch set to `{{ label.suffix }}`.
               {%- elif category == "status" -%}
-                {%- set status = label.id.value or label.id -%}
+                {%- set status = label.id or label.id -%}
                 {%- if status == "triage" -%}
                   Entered the triage phase.
                 {%- elif status == "rejected" -%}
@@ -2715,9 +2715,9 @@ pull:
                 - service: static
                   label: State
                   args:
-                    message: '{{ pull_request.state.value }}'
+                    message: '{{ pull_request.state }}'
                   color: >-
-                    {{ ccc.__custom__.badge.color.green if pull_request.state.value == "open" else ccc.__custom__.badge.color.red }}
+                    {{ ccc.__custom__.badge.color.green if pull_request.state == "open" else ccc.__custom__.badge.color.red }}
                 - service: static
                   label: Last Status
                   args:
@@ -2778,7 +2778,7 @@ pull:
             {{ data.timeline }}
 
             </div>
-
+            
             {{ config }}
     data:
       summary:
