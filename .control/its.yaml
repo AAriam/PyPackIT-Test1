@@ -1725,7 +1725,6 @@ issue:
             - label: >-
                 I am willing to collaborate on this issue and submit a pull request.
               required: false
-
     environment:
       - type: markdown
         attributes:
@@ -1803,6 +1802,7 @@ issue:
         description: Please provide a summary of the issue.
       validations:
         required: true
+      changelog: true
     mre_generic:
       type: textarea
       id: mre
@@ -1834,6 +1834,7 @@ issue:
         description: Please describe your proposal in detail.
       validations:
         required: true
+      changelog: true
     verify_bug:
       type: markdown
       attributes:
@@ -2146,7 +2147,7 @@ issue:
         - heading: Plan
           body: |
             {{ data.summary }}
-
+            
             {{ data.description }}
         - heading: Software Requirements Specification (SRS)
           body: |
@@ -2158,26 +2159,22 @@ issue:
             {{ data.timeline }}
 
             </div>
-
+            
             {{ config }}
-
+            
             {{ inputs }}
     data:
       summary:
         value: "\n\n**TBD**\n\n"
+        changelog: true
       description:
         value: "\n\n\n"
+        changelog: true
       triage:
         value: "\n\n**TBD**\n\n"
       plan:
         value: "\n\n**TBD**\n\n"
       srs:
-        value: "\n\n**TBD**\n\n"
-      sdd:
-        value: "\n\n**TBD**\n\n"
-      testing:
-        value: "\n\n**TBD**\n\n"
-      deployment:
         value: "\n\n**TBD**\n\n"
       timeline:
         value: >-
@@ -2778,7 +2775,7 @@ pull:
             {{ data.timeline }}
 
             </div>
-
+            
             {{ config }}
     data:
       summary:
