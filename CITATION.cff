@@ -1,0 +1,39 @@
+message: If you use PyPackIT Test1, please cite it using this reference.
+version: 0.0.12
+date-released: '2024-12-09'
+license:
+  - MIT
+url: https://AAriam.github.io/PyPackIT-Test1
+repository-artifact: https://pypi.org/project/PyPackIT-Test1
+repository-code: https://github.com/AAriam/PyPackIT-Test1
+type: software
+title: 'PyPackIT Test1: A New Python Project'
+authors:
+  - family-names: Ariamajd
+    given-names: Armin
+    orcid: https://orcid.org/0000-0003-1563-6987
+    email: armiariam@gmail.com
+    city: Berlin
+contact:
+  - family-names: Ariamajd
+    given-names: Armin
+    orcid: https://orcid.org/0000-0003-1563-6987
+    email: armiariam@gmail.com
+    city: Berlin
+abstract: Welcome to PyPackIT Test1 powered by <a href="https://pypackit.repodynamics.com/">PyPackIT</a>.
+  Replace this text with a short abstract of PyPackIT Test1, describing its purpose
+  and main features. By default, this text is displayed on the repository's main README
+  file, on the homepage of the project's website, on the project's PyPI and TestPyPI
+  pages, and on the package's main docstring. Like all other entries in the repository's
+  control center, this text can also contain dynamic references to other entries,
+  using the <code>${‎{ json-path.to.value }}$</code> syntax. By default, the first
+  occurrence of the name of the project in this text is styled as strong and linked
+  to the project's website.
+keywords:
+  - First Keyword
+  - Second Keyword
+  - Third Keyword
+  - Fourth Keyword
+  - Fifth Keyword
+  - Sixth Keyword
+cff-version: 1.2.0
