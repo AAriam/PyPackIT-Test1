@@ -5026,6 +5026,7 @@
                "description": "Please provide a summary of the issue.",
                "label": "Summary"
             },
+            "changelog": true,
             "id": "summary",
             "type": "textarea",
             "validations": {
@@ -5049,6 +5050,7 @@
                "description": "Please describe your proposal in detail.",
                "label": "Proposal"
             },
+            "changelog": true,
             "id": "proposal",
             "type": "textarea",
             "validations": {
@@ -5354,6 +5356,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -5619,6 +5622,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -5880,6 +5884,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -6132,6 +6137,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -6346,6 +6352,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -6358,6 +6365,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -6533,6 +6541,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -6545,6 +6554,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -6716,6 +6726,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -6728,6 +6739,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -6916,6 +6928,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -6928,6 +6941,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -7103,6 +7117,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -7115,6 +7130,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -7286,6 +7302,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -7298,6 +7315,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -7461,6 +7479,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -7633,6 +7652,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -7645,6 +7665,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -7804,6 +7825,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -7816,6 +7838,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -8076,6 +8099,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -8341,6 +8365,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -8602,6 +8627,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -8854,6 +8880,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -9068,6 +9095,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -9080,6 +9108,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -9255,6 +9284,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -9267,6 +9297,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -9438,6 +9469,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -9450,6 +9482,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -9638,6 +9671,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -9650,6 +9684,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -9825,6 +9860,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -9837,6 +9873,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -10008,6 +10045,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -10020,6 +10058,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -10163,6 +10202,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -10175,6 +10215,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -10340,6 +10381,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -10352,6 +10394,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -10517,6 +10560,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -10529,6 +10573,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -10668,6 +10713,7 @@
                      "description": "Please provide a summary of the issue.",
                      "label": "Summary"
                   },
+                  "changelog": true,
                   "id": "summary",
                   "type": "textarea",
                   "validations": {
@@ -10680,6 +10726,7 @@
                      "description": "Please describe your proposal in detail.",
                      "label": "Proposal"
                   },
+                  "changelog": true,
                   "id": "proposal",
                   "type": "textarea",
                   "validations": {
@@ -10723,13 +10770,8 @@
             "start": "<details id=\"config\"><summary>Config</summary>\n\n```yaml\n"
          },
          "data": {
-            "deployment": {
-               "end": "<!-- END: data.deployment -->",
-               "start": "<!-- BEGIN: data.deployment -->",
-               "template_type": "append",
-               "value": "\n\n**TBD**\n\n"
-            },
             "description": {
+               "changelog": true,
                "end": "<!-- END: data.description -->",
                "start": "<!-- BEGIN: data.description -->",
                "template_type": "append",
@@ -10741,12 +10783,6 @@
                "template_type": "append",
                "value": "\n\n**TBD**\n\n"
             },
-            "sdd": {
-               "end": "<!-- END: data.sdd -->",
-               "start": "<!-- BEGIN: data.sdd -->",
-               "template_type": "append",
-               "value": "\n\n**TBD**\n\n"
-            },
             "srs": {
                "end": "<!-- END: data.srs -->",
                "start": "<!-- BEGIN: data.srs -->",
@@ -10754,14 +10790,9 @@
                "value": "\n\n**TBD**\n\n"
             },
             "summary": {
+               "changelog": true,
                "end": "<!-- END: data.summary -->",
                "start": "<!-- BEGIN: data.summary -->",
-               "template_type": "append",
-               "value": "\n\n**TBD**\n\n"
-            },
-            "testing": {
-               "end": "<!-- END: data.testing -->",
-               "start": "<!-- BEGIN: data.testing -->",
                "template_type": "append",
                "value": "\n\n**TBD**\n\n"
             },
@@ -10784,8 +10815,8 @@
             "start": "<!-- BEGIN: inputs\n"
          },
          "tasklist": {
-            "end": "<!-- END: tasklist -->",
-            "start": "<!-- BEGIN: tasklist -->",
+            "end": "\n\n<!-- END: tasklist -->",
+            "start": "<!-- BEGIN: tasklist -->\n\n",
             "value": "- [ ] commit-type: Summary of task 1.\n  Description of task 1.\n  - [ ] Summary of subtask 1.1.\n    Description of subtask 1.1.\n- [ ] commit-type(scope): Summary of task 2.\n  Description of task 2.\n"
          },
          "template": {
@@ -11537,9 +11568,9 @@
          "Programming Language :: Python :: 3.11",
          "Programming Language :: Python :: 3.12",
          "Programming Language :: Python :: 3.13",
-         "Operating System :: MacOS",
          "Operating System :: Microsoft :: Windows",
          "Operating System :: POSIX :: Linux",
+         "Operating System :: MacOS",
          "Operating System :: OS Independent",
          "Development Status :: 4 - Beta",
          "Typing :: Typed"
@@ -12079,8 +12110,8 @@
             "start": "<!-- BEGIN: inputs\n"
          },
          "tasklist": {
-            "end": "<!-- END: tasklist -->",
-            "start": "<!-- BEGIN: tasklist -->",
+            "end": "\n\n<!-- END: tasklist -->",
+            "start": "<!-- BEGIN: tasklist -->\n\n",
             "value": "- [ ] commit-type: Summary of task 1.\n  Description of task 1.\n  - [ ] Summary of subtask 1.1.\n    Description of subtask 1.1.\n- [ ] commit-type(scope): Summary of task 2.\n  Description of task 2.\n"
          },
          "template": {
