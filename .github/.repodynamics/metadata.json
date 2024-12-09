@@ -3207,7 +3207,62 @@
    },
    "copyright": "\u00a9 2024 Armin Ariamajd",
    "discussion": {
-      "category": {}
+      "category": {
+         "announcements": {
+            "created_at": "2024-12-09",
+            "description": "Updates from maintainers",
+            "emoji": "\ud83d\udce3",
+            "id": "DIC_kwDONbAXZc4ClD3T",
+            "is_answerable": false,
+            "name": "Announcements",
+            "updated_at": "2024-12-09"
+         },
+         "general": {
+            "created_at": "2024-12-09",
+            "description": "Chat about anything and everything here",
+            "emoji": "\ud83d\udcac",
+            "id": "DIC_kwDONbAXZc4ClD3U",
+            "is_answerable": false,
+            "name": "General",
+            "updated_at": "2024-12-09"
+         },
+         "ideas": {
+            "created_at": "2024-12-09",
+            "description": "Share ideas for new features",
+            "emoji": "\ud83d\udca1",
+            "id": "DIC_kwDONbAXZc4ClD3W",
+            "is_answerable": false,
+            "name": "Ideas",
+            "updated_at": "2024-12-09"
+         },
+         "polls": {
+            "created_at": "2024-12-09",
+            "description": "Take a vote from the community",
+            "emoji": "\ud83d\uddf3\ufe0f",
+            "id": "DIC_kwDONbAXZc4ClD3Y",
+            "is_answerable": false,
+            "name": "Polls",
+            "updated_at": "2024-12-09"
+         },
+         "q-a": {
+            "created_at": "2024-12-09",
+            "description": "Ask the community for help",
+            "emoji": "\ud83d\ude4f",
+            "id": "DIC_kwDONbAXZc4ClD3V",
+            "is_answerable": true,
+            "name": "Q&A",
+            "updated_at": "2024-12-09"
+         },
+         "show-and-tell": {
+            "created_at": "2024-12-09",
+            "description": "Show off something you've made",
+            "emoji": "\ud83d\ude4c",
+            "id": "DIC_kwDONbAXZc4ClD3X",
+            "is_answerable": false,
+            "name": "Show and tell",
+            "updated_at": "2024-12-09"
+         }
+      }
    },
    "document": {
       "code_of_conduct": {
@@ -4473,7 +4528,50 @@
                                     "color": "#0B3C75",
                                     "endpoint": "discussion_search_hits",
                                     "height": "23px",
-                                    "items": [],
+                                    "items": [
+                                       {
+                                          "args": {
+                                             "query": "category:\"Announcements\""
+                                          },
+                                          "label": "\ud83d\udce3\u2002Announcements",
+                                          "title": "Updates from maintainers"
+                                       },
+                                       {
+                                          "args": {
+                                             "query": "category:\"General\""
+                                          },
+                                          "label": "\ud83d\udcac\u2002General",
+                                          "title": "Chat about anything and everything here"
+                                       },
+                                       {
+                                          "args": {
+                                             "query": "category:\"Ideas\""
+                                          },
+                                          "label": "\ud83d\udca1\u2002Ideas",
+                                          "title": "Share ideas for new features"
+                                       },
+                                       {
+                                          "args": {
+                                             "query": "category:\"Polls\""
+                                          },
+                                          "label": "\ud83d\uddf3\ufe0f\u2002Polls",
+                                          "title": "Take a vote from the community"
+                                       },
+                                       {
+                                          "args": {
+                                             "query": "category:\"Q&A\""
+                                          },
+                                          "label": "\ud83d\ude4f\u2002Q&A",
+                                          "title": "Ask the community for help"
+                                       },
+                                       {
+                                          "args": {
+                                             "query": "category:\"Show and tell\""
+                                          },
+                                          "label": "\ud83d\ude4c\u2002Show and tell",
+                                          "title": "Show off something you've made"
+                                       }
+                                    ],
                                     "separator": 2,
                                     "service": "github",
                                     "style": "flat-square"
@@ -10682,7 +10780,7 @@
             }
          },
          "inputs": {
-            "end": "\nEND: inputs -->\n",
+            "end": "\nEND: inputs -->",
             "start": "<!-- BEGIN: inputs\n"
          },
          "tasklist": {
@@ -11439,9 +11537,9 @@
          "Programming Language :: Python :: 3.11",
          "Programming Language :: Python :: 3.12",
          "Programming Language :: Python :: 3.13",
+         "Operating System :: POSIX :: Linux",
          "Operating System :: MacOS",
          "Operating System :: Microsoft :: Windows",
-         "Operating System :: POSIX :: Linux",
          "Operating System :: OS Independent",
          "Development Status :: 4 - Beta",
          "Typing :: Typed"
@@ -11814,11 +11912,11 @@
             "typed": "pkg/src/pypackit_test1/py.typed"
          },
          "pkg_source": {
-            "your_new_python_project/__init__.py": "pkg/src/pypackit_test1/__init__.py",
-            "your_new_python_project/__main__.py": "pkg/src/pypackit_test1/__main__.py",
-            "your_new_python_project/data/__init__.py": "pkg/src/pypackit_test1/data/__init__.py",
-            "your_new_python_project/exception/__init__.py": "pkg/src/pypackit_test1/exception/__init__.py",
-            "your_new_python_project/exception/data.py": "pkg/src/pypackit_test1/exception/data.py"
+            "pypackit_test1/__init__.py": "pkg/src/pypackit_test1/__init__.py",
+            "pypackit_test1/__main__.py": "pkg/src/pypackit_test1/__main__.py",
+            "pypackit_test1/data/__init__.py": "pkg/src/pypackit_test1/data/__init__.py",
+            "pypackit_test1/exception/__init__.py": "pkg/src/pypackit_test1/exception/__init__.py",
+            "pypackit_test1/exception/data.py": "pkg/src/pypackit_test1/exception/data.py"
          },
          "test_config": {
             "conda_recipe_meta_global": "test/conda-recipe/global/meta.yaml",
@@ -11830,11 +11928,11 @@
             "typed": "test/src/pypackit_test1_testsuite/py.typed"
          },
          "test_source": {
-            "your_new_python_project_testsuite/__init__.py": "test/src/pypackit_test1_testsuite/__init__.py",
-            "your_new_python_project_testsuite/__main__.py": "test/src/pypackit_test1_testsuite/__main__.py",
-            "your_new_python_project_testsuite/data/__init__.py": "test/src/pypackit_test1_testsuite/data/__init__.py",
-            "your_new_python_project_testsuite/data/config/__init__.py": "test/src/pypackit_test1_testsuite/data/config/__init__.py",
-            "your_new_python_project_testsuite/data_tests.py": "test/src/pypackit_test1_testsuite/data_tests.py"
+            "pypackit_test1_testsuite/__init__.py": "test/src/pypackit_test1_testsuite/__init__.py",
+            "pypackit_test1_testsuite/__main__.py": "test/src/pypackit_test1_testsuite/__main__.py",
+            "pypackit_test1_testsuite/data/__init__.py": "test/src/pypackit_test1_testsuite/data/__init__.py",
+            "pypackit_test1_testsuite/data/config/__init__.py": "test/src/pypackit_test1_testsuite/data/config/__init__.py",
+            "pypackit_test1_testsuite/data_tests.py": "test/src/pypackit_test1_testsuite/data_tests.py"
          },
          "tool_config": {
             "codecov": ".github/.codecov.yml",
@@ -11977,7 +12075,7 @@
             }
          },
          "inputs": {
-            "end": "\nEND: inputs -->\n",
+            "end": "\nEND: inputs -->",
             "start": "<!-- BEGIN: inputs\n"
          },
          "tasklist": {
@@ -12036,14 +12134,12 @@
                               "title": "{{ status_label.description }}"
                            },
                            {
-                              "service": "github"
-                           },
-                           {
                               "args": {
                                  "property": "last-update"
                               },
                               "endpoint": "issue_details",
-                              "label": "Last Update"
+                              "label": "Last Update",
+                              "service": "github"
                            },
                            {
                               "args": {
@@ -12717,7 +12813,14 @@
          },
          "discussions": {
             "home": "https://github.com/AAriam/PyPackIT-Test1/discussions",
-            "new": {}
+            "new": {
+               "announcements": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=announcements",
+               "general": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=general",
+               "ideas": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=ideas",
+               "polls": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=polls",
+               "q-a": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=q-a",
+               "show-and-tell": "https://github.com/AAriam/PyPackIT-Test1/discussions/new?category=show-and-tell"
+            }
          },
          "home": "https://github.com/AAriam/PyPackIT-Test1",
          "issues": {
