@@ -2146,7 +2146,7 @@ issue:
         - heading: Plan
           body: |
             {{ data.summary }}
-
+            
             {{ data.description }}
         - heading: Software Requirements Specification (SRS)
           body: |
@@ -2158,9 +2158,9 @@ issue:
             {{ data.timeline }}
 
             </div>
-
+            
             {{ config }}
-
+            
             {{ inputs }}
     data:
       summary:
@@ -2726,7 +2726,7 @@ pull:
                   color: >-
                     {{ status_label.color if status_label.color is defined else ccc.label.status.color }}
                 - service: github
-                - endpoint: issue_details
+                  endpoint: issue_details
                   label: Last Update
                   args:
                     property: last-update
@@ -2778,7 +2778,7 @@ pull:
             {{ data.timeline }}
 
             </div>
-
+            
             {{ config }}
     data:
       summary:
